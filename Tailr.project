@@ -29,6 +29,14 @@
             "signUp", 
             "signUp.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "profile", 
+            "profile.json"
+          ]
         }
       ], 
       "configxml": null, 
