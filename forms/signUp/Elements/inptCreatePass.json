@@ -30,7 +30,7 @@
   "icon": "", 
   "iconTitle": "", 
   "id": "inptCreatePass", 
-  "inputType": "text", 
+  "inputType": "password", 
   "inputmode": "", 
   "left": 6, 
   "leftText": "Password", 

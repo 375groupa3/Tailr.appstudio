@@ -30,7 +30,7 @@
   "icon": "", 
   "iconTitle": "", 
   "id": "inptVerifyPass", 
-  "inputType": "text", 
+  "inputType": "password", 
   "inputmode": "", 
   "left": 4, 
   "leftText": "Password", 
