@@ -1,6 +1,6 @@
 
 btnSignIn1.onclick=function(){
-  ChangeForm(signIn)
+  ChangeForm(logIn)
 }
 
 btnSignUp1.onclick=function(){
