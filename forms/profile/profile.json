@@ -18,6 +18,15 @@
         "Elements", 
         "lblTailrCopyCopy.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profile", 
+        "Elements", 
+        "imgProfile.json"
+      ]
     }
   ], 
   "class": "", 
@@ -34,7 +43,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "profile.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
