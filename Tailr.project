@@ -18,16 +18,24 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "Form1", 
-            "Form1.json"
+            "logIn", 
+            "logIn.json"
           ]
         }, 
         {
           "!type": "External", 
           "file": [
             "forms", 
-            "Form2", 
-            "Form2.json"
+            "signUp", 
+            "signUp.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "profile", 
+            "profile.json"
           ]
         }
       ], 
@@ -43,7 +51,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "Form1", 
+      "firstform": "logIn", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
