@@ -72,15 +72,6 @@
         "Elements", 
         "lblMember.json"
       ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "logIn", 
-        "Elements", 
-        "txtTest.json"
-      ]
     }
   ], 
   "class": "", 
