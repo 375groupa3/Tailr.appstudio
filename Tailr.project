@@ -45,6 +45,14 @@
             "profile", 
             "profile.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "settings", 
+            "settings.json"
+          ]
         }
       ], 
       "configxml": null, 
@@ -59,7 +67,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "logIn", 
+      "firstform": "profile", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
