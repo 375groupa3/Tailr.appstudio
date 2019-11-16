@@ -34,8 +34,16 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "profile", 
-            "profile.json"
+            "create_profile", 
+            "create_profile.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "picTest", 
+            "picTest.json"
           ]
         }
       ], 

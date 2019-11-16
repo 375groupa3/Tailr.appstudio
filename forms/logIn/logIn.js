@@ -14,7 +14,7 @@ btnSignin.onclick=function(){
     console.log(results) // this shows the array of arrays  
     if (inptPassword.value == results[0][2]) {
           user_id = results[0][0]
-          ChangeForm(profile)
+          ChangeForm(create_profile)
       } else 
           NSB.MsgBox("The username or password is incorrect")
   }else

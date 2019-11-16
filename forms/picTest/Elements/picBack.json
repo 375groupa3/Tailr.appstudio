@@ -14,10 +14,10 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": 122, 
+  "height": 134, 
   "hidden": "", 
-  "id": "imgProfile", 
-  "left": 89, 
+  "id": "picBack", 
+  "left": 160, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -48,6 +48,6 @@
   "shape": "", 
   "src": "nsb/images/192.png", 
   "style": "", 
-  "top": 63, 
-  "width": 137
+  "top": 282, 
+  "width": 142
 }
