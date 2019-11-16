@@ -19,6 +19,7 @@ reader.onload = function(e) {
      //The _onload function for the image will be called on completion.
   imgProfile.src = e.target.result; //Phone Viewing ONLY
   picBase64 = e.target.result;
+  console.log(1)
   return;
 };
 
@@ -42,17 +43,15 @@ CreateProfileBtn.onclick=function(){
         gender = "female"
     }
     
-    query = "INSERT INTO `profile` (profile_picture,first_name,birth_date,gender,phone,email) VALUES ('" + picBase64 + "', '" + firstName + "', '" + birthDate + "', '" + gender + "', '" + phone + "', '" + email + "')"
-    console.log(query)
-/*
+    query = "INSERT INTO `profile` (profile_picture,first_name,birth_date,gender,phone,email,user_id) VALUES ('" + picBase64 + "', '" + firstName + "', '" + birthDate + "', '" + gender + "', '" + phone + "', '" + email + "', '" + user_id + "')"
+    
     req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=ajs85167&pass=BIA375&database=375groupa3&query=" + query);
     
     if (req1.status == 200) { //transit worked.
     
         if (req1.responseText == 500) {   // means the insert succeeded
-        
-            var result = JSON.parse(req1.responseText)
-            NSB.MsgBox("You have successfully created your profile!")
+
+            ChangeForm(profile)
             
         } else
             
@@ -62,7 +61,7 @@ CreateProfileBtn.onclick=function(){
         // transit error
         NSB.MsgBox("Error: " + req1.status);
     }  
-    */
+    
 }
 
 BirthMonthDrop.onclick=function(s){
@@ -89,6 +88,6 @@ BirthYearDrop.onclick=function(s){
   }
 }
 
-ChooseFileBtn.onclick=function(){
-    reader.readAsDataURL(ChooseFileBtn.files);
+ChooseFile.onchange=function(){
+    reader.readAsDataURL(ChooseFile.files[0]);  
 }
