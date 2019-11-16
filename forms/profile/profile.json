@@ -16,7 +16,25 @@
         "forms", 
         "profile", 
         "Elements", 
-        "lblTailrCopyCopy.json"
+        "hmbSettings.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profile", 
+        "Elements", 
+        "imgProfilePic.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profile", 
+        "Elements", 
+        "Label1.json"
       ]
     }
   ], 

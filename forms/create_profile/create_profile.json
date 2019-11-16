@@ -14,72 +14,117 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "logIn", 
+        "create_profile", 
         "Elements", 
-        "inptUsername.json"
+        "lblTailrCopyCopy.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "logIn", 
+        "create_profile", 
         "Elements", 
-        "inptPassword.json"
+        "imgProfile.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "logIn", 
+        "create_profile", 
         "Elements", 
-        "lblSignin.json"
+        "FirstNameInpt.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "logIn", 
+        "create_profile", 
         "Elements", 
-        "lblTailr.json"
+        "BirthMonthDrop.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "logIn", 
+        "create_profile", 
         "Elements", 
-        "btnSignin.json"
+        "BirthDayDrop.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "logIn", 
+        "create_profile", 
         "Elements", 
-        "btnSignUp.json"
+        "BirthYearDrop.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "logIn", 
+        "create_profile", 
         "Elements", 
-        "lblMember.json"
+        "GenderRBtn.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "logIn", 
+        "create_profile", 
         "Elements", 
-        "txtTest.json"
+        "EmailInpt.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "create_profile", 
+        "Elements", 
+        "PhoneInpt.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "create_profile", 
+        "Elements", 
+        "DOBText.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "create_profile", 
+        "Elements", 
+        "ProfilePictureText.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "create_profile", 
+        "Elements", 
+        "CreateProfileBtn.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "create_profile", 
+        "Elements", 
+        "ChooseFileBtn.json"
       ]
     }
   ], 
@@ -89,7 +134,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "logIn", 
+  "id": "create_profile", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -97,7 +142,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "logIn.onshow()", 
+  "onshow": "profile.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
