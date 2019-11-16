@@ -9,51 +9,14 @@
   "borderWidth": "", 
   "cached_js": null, 
   "cached_js_script_hash": null, 
-  "children": [
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "profile", 
-        "Elements", 
-        "hmbSettings.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "profile", 
-        "Elements", 
-        "imgProfilePic.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "profile", 
-        "Elements", 
-        "lblName.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "profile", 
-        "Elements", 
-        "lblTailrCopyCopyCopy.json"
-      ]
-    }
-  ], 
+  "children": [], 
   "class": "", 
   "designHeight": 0, 
   "designWidth": 0, 
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "profile", 
+  "id": "settings", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
