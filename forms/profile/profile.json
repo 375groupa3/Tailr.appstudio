@@ -14,45 +14,27 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "picTest", 
+        "profile", 
         "Elements", 
-        "picUp.json"
+        "hmbSettings.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "picTest", 
+        "profile", 
         "Elements", 
-        "txtGetPic.json"
+        "imgProfilePic.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "picTest", 
+        "profile", 
         "Elements", 
-        "savePic.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "picTest", 
-        "Elements", 
-        "picBack.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "picTest", 
-        "Elements", 
-        "btnCallPic.json"
+        "Label1.json"
       ]
     }
   ], 
@@ -62,7 +44,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "picTest", 
+  "id": "profile", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 

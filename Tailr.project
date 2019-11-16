@@ -42,8 +42,8 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "picTest", 
-            "picTest.json"
+            "profile", 
+            "profile.json"
           ]
         }
       ], 
