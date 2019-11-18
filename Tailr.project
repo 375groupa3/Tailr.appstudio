@@ -53,6 +53,14 @@
             "settings", 
             "settings.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "picUpload", 
+            "picUpload.json"
+          ]
         }
       ], 
       "configxml": null, 
@@ -67,7 +75,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "profile", 
+      "firstform": "picUpload", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
