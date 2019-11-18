@@ -1,0 +1,112 @@
+{
+  "!type": "Form", 
+  "HTML": null, 
+  "attributes": "", 
+  "background": "", 
+  "backgroundimage": "", 
+  "borderColor": "", 
+  "borderStyle": "", 
+  "borderWidth": "", 
+  "cached_js": null, 
+  "cached_js_script_hash": null, 
+  "children": [
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "picUpload", 
+        "Elements", 
+        "picUp.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "picUpload", 
+        "Elements", 
+        "txtGetPic.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "picUpload", 
+        "Elements", 
+        "savePic.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "picUpload", 
+        "Elements", 
+        "drpClothingGender.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "picUpload", 
+        "Elements", 
+        "drpWeather.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "picUpload", 
+        "Elements", 
+        "drpColor.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "picUpload", 
+        "Elements", 
+        "drpBrand.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "picUpload", 
+        "Elements", 
+        "drpCategory.json"
+      ]
+    }
+  ], 
+  "class": "", 
+  "designHeight": 0, 
+  "designWidth": 0, 
+  "expanded_pmp": null, 
+  "fullScreen": "true", 
+  "height": 460, 
+  "id": "picUpload", 
+  "language": "JavaScript", 
+  "left": "0", 
+  "locked": false, 
+  "modal": "false", 
+  "onhide": "", 
+  "onkeypress": "", 
+  "onresize": "", 
+  "onshow": "picTest.onshow()", 
+  "openMode": "none", 
+  "parentForm": "", 
+  "position": "absolute", 
+  "script": null, 
+  "scroll_options": "mouseWheel:true, bounce:true, zoom:false", 
+  "scrolling": "false", 
+  "setFocusID": "", 
+  "style": "", 
+  "theme": "", 
+  "top": "0", 
+  "width": 320
+}
