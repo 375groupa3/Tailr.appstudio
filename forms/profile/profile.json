@@ -43,7 +43,7 @@
         "forms", 
         "profile", 
         "Elements", 
-        "lblTailrCopyCopyCopy.json"
+        "lblTailrProfile.json"
       ]
     }
   ], 
@@ -61,7 +61,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "profile.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

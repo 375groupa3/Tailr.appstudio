@@ -19,7 +19,7 @@
   "hidden": "", 
   "id": "lblName", 
   "labelStyle": "text", 
-  "left": 83, 
+  "left": 31, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -44,5 +44,5 @@
   "style": "", 
   "top": 166, 
   "value": "", 
-  "width": 140
+  "width": 252
 }
