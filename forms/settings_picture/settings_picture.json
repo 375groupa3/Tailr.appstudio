@@ -14,72 +14,54 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "settings_picture", 
         "Elements", 
-        "lblTailrCopyCopy1Copy.json"
+        "lblTailrCopyCopy1.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "settings_picture", 
         "Elements", 
-        "Label2.json"
+        "profilePicture.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "settings_picture", 
         "Elements", 
-        "ProfilePicturebtn.json"
+        "chooseFile.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "settings_picture", 
         "Elements", 
-        "PasswordBtn.json"
+        "Label1.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "settings_picture", 
         "Elements", 
-        "UsernameBtn.json"
+        "UpdateBtn1.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "settings_picture", 
         "Elements", 
-        "EmailBtn.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "settings", 
-        "Elements", 
-        "PhoneBtn.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "settings", 
-        "Elements", 
-        "UpdateDOB.json"
+        "BackBtn1.json"
       ]
     }
   ], 
@@ -89,7 +71,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "settings", 
+  "id": "settings_picture", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
