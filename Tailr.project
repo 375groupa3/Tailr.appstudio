@@ -61,6 +61,22 @@
             "picUpload", 
             "picUpload.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "home", 
+            "home.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "picCall", 
+            "picCall.json"
+          ]
         }
       ], 
       "configxml": null, 
