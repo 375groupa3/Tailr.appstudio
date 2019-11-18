@@ -9,14 +9,51 @@
   "borderWidth": "", 
   "cached_js": null, 
   "cached_js_script_hash": null, 
-  "children": [], 
+  "children": [
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profile", 
+        "Elements", 
+        "hmbSettings.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profile", 
+        "Elements", 
+        "imgProfilePic.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profile", 
+        "Elements", 
+        "lblName.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profile", 
+        "Elements", 
+        "lblTailrCopyCopyCopy.json"
+      ]
+    }
+  ], 
   "class": "", 
   "designHeight": 0, 
   "designWidth": 0, 
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "Form2", 
+  "id": "profile", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 

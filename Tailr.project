@@ -18,16 +18,40 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "Form1", 
-            "Form1.json"
+            "logIn", 
+            "logIn.json"
           ]
         }, 
         {
           "!type": "External", 
           "file": [
             "forms", 
-            "Form2", 
-            "Form2.json"
+            "signUp", 
+            "signUp.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "create_profile", 
+            "create_profile.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "profile", 
+            "profile.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "settings", 
+            "settings.json"
           ]
         }
       ], 
@@ -43,7 +67,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "Form1", 
+      "firstform": "profile", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
@@ -79,7 +103,7 @@
       "useStrict": "", 
       "version": "1.0.0", 
       "viewportFit": "cover", 
-      "voltAppId": "", 
+      "voltAppId": "kKC3oG", 
       "voltDomain": ""
     }
   ], 
