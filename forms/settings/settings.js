@@ -10,3 +10,7 @@ UsernameBtn.onclick=function(){
 PasswordBtn.onclick=function(){
   ChangeForm(UpdatePassword)
 }
+
+UpdateDOB.onclick=function(){
+  ChangeForm(UpdateBirthDate)
+}

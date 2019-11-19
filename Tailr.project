@@ -77,6 +77,14 @@
             "UpdatePassword", 
             "UpdatePassword.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "UpdateBirthDate", 
+            "UpdateBirthDate.json"
+          ]
         }
       ], 
       "configxml": null, 
