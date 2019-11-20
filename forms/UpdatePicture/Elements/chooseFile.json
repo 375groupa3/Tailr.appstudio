@@ -43,7 +43,7 @@
   "maxlength": "", 
   "min": "", 
   "name": "", 
-  "onchange": "", 
+  "onchange": "chooseFile.onchange()", 
   "onclick": "", 
   "oncopy": "", 
   "oncut": "", 

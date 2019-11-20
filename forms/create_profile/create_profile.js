@@ -19,7 +19,6 @@ reader.onload = function(e) {
      //The _onload function for the image will be called on completion.
   imgProfile.src = e.target.result; //Phone Viewing ONLY
   picBase64 = e.target.result;
-  console.log(1)
   return;
 };
 

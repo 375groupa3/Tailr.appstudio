@@ -50,8 +50,8 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "settings_picture", 
-            "settings_picture.json"
+            "UpdatePicture", 
+            "UpdatePicture.json"
           ]
         }, 
         {
@@ -99,7 +99,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "logIn", 
+      "firstform": "settings", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 

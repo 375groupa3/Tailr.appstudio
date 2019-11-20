@@ -1,6 +1,6 @@
 
 ProfilePicturebtn.onclick=function(){
-  ChangeForm(settings_picture)
+  ChangeForm(UpdatePicture)
 }
 
 UsernameBtn.onclick=function(){

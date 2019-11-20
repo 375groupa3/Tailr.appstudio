@@ -14,7 +14,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "settings_picture", 
+        "UpdatePicture", 
         "Elements", 
         "lblTailrCopyCopy1.json"
       ]
@@ -23,7 +23,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "settings_picture", 
+        "UpdatePicture", 
         "Elements", 
         "profilePicture.json"
       ]
@@ -32,7 +32,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "settings_picture", 
+        "UpdatePicture", 
         "Elements", 
         "chooseFile.json"
       ]
@@ -41,7 +41,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "settings_picture", 
+        "UpdatePicture", 
         "Elements", 
         "Label1.json"
       ]
@@ -50,7 +50,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "settings_picture", 
+        "UpdatePicture", 
         "Elements", 
         "UpdateBtn1.json"
       ]
@@ -59,7 +59,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "settings_picture", 
+        "UpdatePicture", 
         "Elements", 
         "BackBtn1.json"
       ]
@@ -71,7 +71,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "settings_picture", 
+  "id": "UpdatePicture", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
