@@ -14,45 +14,99 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "profile", 
+        "home", 
         "Elements", 
-        "hmbSettings.json"
+        "drpClothingGenderSelect.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "profile", 
+        "home", 
         "Elements", 
-        "imgProfilePic.json"
+        "drpWeatherSelect.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "profile", 
+        "home", 
         "Elements", 
-        "lblName.json"
+        "drpColorSelect.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "profile", 
+        "home", 
         "Elements", 
-        "lblTailrProfile.json"
+        "drpBrandSelect.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "profile", 
+        "home", 
         "Elements", 
-        "pglLikes.json"
+        "drpCategorySelect.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "home", 
+        "Elements", 
+        "btnFilterSubmit.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "home", 
+        "Elements", 
+        "btnFilterReset.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "home", 
+        "Elements", 
+        "imgHome1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "home", 
+        "Elements", 
+        "imgHome2.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "home", 
+        "Elements", 
+        "imgHome3.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "home", 
+        "Elements", 
+        "imgHome4.json"
       ]
     }
   ], 
@@ -62,7 +116,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "profile", 
+  "id": "home", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -70,7 +124,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "profile.onshow()", 
+  "onshow": "home.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

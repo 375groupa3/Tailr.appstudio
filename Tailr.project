@@ -70,6 +70,14 @@
             "UpdateUsername.json"
           ]
         }, 
+                {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "picUpload", 
+            "picUpload.json"
+          ]
+        }, 
         {
           "!type": "External", 
           "file": [
@@ -82,8 +90,24 @@
           "!type": "External", 
           "file": [
             "forms", 
+            "home", 
+            "home.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
             "UpdateBirthDate", 
             "UpdateBirthDate.json"
+          ]
+        },
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "picCall", 
+            "picCall.json"
           ]
         }
       ], 
