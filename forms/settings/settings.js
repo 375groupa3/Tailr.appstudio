@@ -14,3 +14,7 @@ PasswordBtn.onclick=function(){
 UpdateDOB.onclick=function(){
   ChangeForm(UpdateBirthDate)
 }
+
+Button1.onclick=function(){
+  ChangeForm(profile)
+}

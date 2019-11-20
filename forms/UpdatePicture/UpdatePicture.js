@@ -4,7 +4,7 @@ BackBtn1.onclick=function(){
 }
 
 chooseFile.onchange=function(){
-    reader.readAsDataURL(ChooseFile.files[0]);  
+    reader.readAsDataURL(chooseFile.files[0]);  
 }
 
 reader = new FileReader();
@@ -19,15 +19,12 @@ reader.onload = function(e) {
 }
 
 UpdateBtn1.onclick=function(){
-    query = "UPDATE profile SET profile_picture =" + '"' + picBase64 + '"' + " WHERE user_id = 3"
+    query = "UPDATE profile SET profile_picture =" + '"' + picBase64 + '"' + " WHERE user_id =" + '"' + user_id + '"'  
     req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=ajs85167&pass=BIA375&database=375groupa3&query=" + query);
-
     if (req1.status == 200) { //transit worked.
         if (req1.responseText == 500) {   // means the update succeeded
-            var result = JSON.parse(req1.responseText)
-            console.log("worked...")
-        } else
-            NSB.MsgBox("There was a problem changing the customer's name.")
+        } 
+        Label3.value = "You changed your profile picture."
     } else {
         // transit error
         NSB.MsgBox("Error: " + req1.status);

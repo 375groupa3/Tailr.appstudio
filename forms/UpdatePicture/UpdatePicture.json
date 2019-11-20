@@ -63,6 +63,15 @@
         "Elements", 
         "BackBtn1.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "UpdatePicture", 
+        "Elements", 
+        "Label3.json"
+      ]
     }
   ], 
   "class": "", 

@@ -23,7 +23,7 @@ btnSignin.onclick=function(){
                 allUserData = JSON.parse(req1.responseText)
                 console.log("parsed result in onshow:  " + allUserData[0])
                 if (allUserData[0] > 0) {
-                    ChangeForm(settings)
+                    ChangeForm(profile)
                 } else {
                     ChangeForm(create_profile)
                 }
