@@ -1,4 +1,4 @@
-
+/*
 let genderArray = ["Men's", "Women's", "Unisex"]
 let weatherArray = ["Hot","Cold","Rain","Snow", "All-weather"]
 let colorArray = ["White", "Yellow", "Red", "Pink", "Blue", "Green", "Orange", "Purple", "Black", "Other"]
@@ -11,7 +11,7 @@ var weatherSelect = ""
 var colorSelect = ""
 var brandSelect = ""
 var categorySelect = ""
-
+*/
 picUpload.onshow=function(){
   drpClothingGender.clear()
   for (i = 0; i <= genderArray.length - 1; i++)
