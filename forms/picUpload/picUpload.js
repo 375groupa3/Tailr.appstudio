@@ -1,6 +1,6 @@
-/*
+
 let genderArray = ["Men's", "Women's", "Unisex"]
-let weatherArray = ["Hot","Cold","Rain","Snow", "All-weather"]
+let weatherArray = ["Hot","Cold","Rain","Snow", "Other"]
 let colorArray = ["White", "Yellow", "Red", "Pink", "Blue", "Green", "Orange", "Purple", "Black", "Other"]
 let brandArray = ["Nike","Adidas","Levi","Gucci","Polo Ralph Lauren","Calvin Klein","Aeropostale","Versace","American Eagle","Victoria's Secret", "Other"]
 let categoryArray = ["Sport","Formal","Casual","Outdoors", "Other"]
@@ -11,7 +11,7 @@ var weatherSelect = ""
 var colorSelect = ""
 var brandSelect = ""
 var categorySelect = ""
-*/
+
 picUpload.onshow=function(){
   drpClothingGender.clear()
   for (i = 0; i <= genderArray.length - 1; i++)
@@ -49,7 +49,7 @@ reader.onload = function(e) {
 
 savePic.onclick=function(){
   var query = "INSERT INTO picture (picture) VALUES (" + '"' + picBase64 + '")'
-  console.log(picBase64)
+  //console.log(picBase64)
   req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + query)
   if (req1.status == 200) {
     //alert("successfully inserted picture")
@@ -61,7 +61,7 @@ savePic.onclick=function(){
       var attributesQuery = "INSERT INTO image_attributes (picture_id, gender, weather, color, brand, category) VALUES (" + '"' + lastID + '",' + '"' + genderSelect + '",' + '"' + weatherSelect  + '",' + '"' + colorSelect + '",' + '"' + brandSelect + '",' + '"' + categorySelect + '")'
       req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + attributesQuery)
       if (req3.status == 200) {
-        //alert("successfully inserted picture attributes")
+        alert("successfully inserted picture attributes")
       } else {
         alert("failed to insert attributes + req3.status")
       }
@@ -119,4 +119,12 @@ drpCategory.onclick=function(s){
     drpCategory.value = s
     categorySelect = s
   }
+}
+
+hmbUpload.onclick=function(s){
+  if (typeof(s) == "object") {
+    return;
+  }
+  if {s === "Home")
+    ChangeForm(home)
 }
