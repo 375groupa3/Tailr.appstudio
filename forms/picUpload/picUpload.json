@@ -81,6 +81,15 @@
         "Elements", 
         "drpCategory.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "picUpload", 
+        "Elements", 
+        "hmbUpload.json"
+      ]
     }
   ], 
   "class": "", 

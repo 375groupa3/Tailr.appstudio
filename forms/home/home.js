@@ -3,12 +3,13 @@ var weatherFilter = "IS NOT NULL"
 var colorFilter = "IS NOT NULL"
 var brandFilter = "IS NOT NULL"
 var categoryFilter = "IS NOT NULL"
+/*
 let genderArray = ["Men's", "Women's", "Unisex"]
 let weatherArray = ["Hot","Cold","Rain","Snow", "All-weather"]
 let colorArray = ["White", "Yellow", "Red", "Pink", "Blue", "Green", "Orange", "Purple", "Black", "Other"]
 let brandArray = ["Nike","Adidas","Levi","Gucci","Polo Ralph Lauren","Calvin Klein","Aeropostale","Versace","American Eagle","Victoria's Secret", "Other"]
 let categoryArray = ["Sport","Formal","Casual","Outdoors", "Other"]
-
+*/
 home.onshow=function(){
   drpClothingGenderSelect.clear()
   for (i = 0; i <= genderArray.length - 1; i++)
@@ -93,16 +94,30 @@ btnFilterSubmit.onclick=function(){
   let picMin = ""
   let picMax = ""
   let picArray = ""
+  let randomPic
   
   var picIDquery = "SELECT picture_id FROM image_attributes where gender " + genderFilter + " AND weather " + weatherFilter + " AND color " + colorFilter + " AND brand " + brandFilter + " AND category " + categoryFilter
-  alert(picIDquery)
+  //alert(picIDquery)
   req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + picIDquery)
-  /*
   if (req1.status == 200) {
-  picArray = JSON.parse(req1.responseText)
-  alert(picArray)
+  picIDArray = JSON.parse(req1.responseText)
+  randomPicID = picIDArray[Math.floor(Math.random()*picIDArray.length)];
+  //alert(randomPicID)
+  var callQuery = "SELECT picture FROM picture WHERE picture_id =" + randomPicID + ";"
+  req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + callQuery)
+  if (req3.status == 200) {
+    resultCall = JSON.parse(req3.responseText)
+    var callBlob = resultCall[0][0] + '.'
+    callBlob = callBlob.replace(/\s/gi, '+')
+    //console.log(callBlob)
+    picArray = callBlob.split(".")
+    imgHome1.src = picArray[0]
+    } else {
+      //Handle that. 
+      alert("Error: " + req3.status)
+    }
   }
-  */
+  
   
 /*
   var picMaxQuery = "SELECT MAX(picture_id) FROM picture"

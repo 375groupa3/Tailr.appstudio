@@ -123,7 +123,9 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
+
       "firstform": "logIn", 
+      
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
