@@ -45,6 +45,15 @@
         "Elements", 
         "lblTailrProfile.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profile", 
+        "Elements", 
+        "pglLikes.json"
+      ]
     }
   ], 
   "class": "", 
