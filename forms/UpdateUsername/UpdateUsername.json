@@ -14,72 +14,54 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "UpdateUsername", 
         "Elements", 
-        "lblTailrCopyCopy1Copy.json"
+        "lblTailrTitle.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "UpdateUsername", 
         "Elements", 
-        "Label2.json"
+        "UpdateUsernameTxt.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "UpdateUsername", 
         "Elements", 
-        "ProfilePicturebtn.json"
+        "NewUsername.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "UpdateUsername", 
         "Elements", 
-        "PasswordBtn.json"
+        "CurrentUsername.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "UpdateUsername", 
         "Elements", 
-        "UsernameBtn.json"
+        "UpdateBtn.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "UpdateUsername", 
         "Elements", 
-        "EmailBtn.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "settings", 
-        "Elements", 
-        "PhoneBtn.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "settings", 
-        "Elements", 
-        "UpdateDOB.json"
+        "BackBtn.json"
       ]
     }
   ], 
@@ -89,7 +71,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "settings", 
+  "id": "UpdateUsername", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -97,7 +79,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "UpdateUsername.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

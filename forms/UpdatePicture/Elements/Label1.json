@@ -15,11 +15,11 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": 37, 
+  "height": "auto", 
   "hidden": "", 
-  "id": "lblName", 
+  "id": "Label1", 
   "labelStyle": "text", 
-  "left": 31, 
+  "left": 15, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 166, 
-  "value": "", 
-  "width": 252
+  "top": 83, 
+  "value": "Update Profile Picture", 
+  "width": "auto"
 }

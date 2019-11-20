@@ -15,11 +15,11 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": 37, 
+  "height": 53, 
   "hidden": "", 
-  "id": "lblName", 
+  "id": "CurrentDOB", 
   "labelStyle": "text", 
-  "left": 31, 
+  "left": 13, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 166, 
+  "top": 121, 
   "value": "", 
-  "width": 252
+  "width": 303
 }

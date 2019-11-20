@@ -14,72 +14,72 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "UpdateBirthDate", 
         "Elements", 
-        "lblTailrCopyCopy1Copy.json"
+        "lblTailrTitle1.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "UpdateBirthDate", 
         "Elements", 
-        "Label2.json"
+        "UpdateDOBTxt.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "UpdateBirthDate", 
         "Elements", 
-        "ProfilePicturebtn.json"
+        "CurrentDOB.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "UpdateBirthDate", 
         "Elements", 
-        "PasswordBtn.json"
+        "UpdateBtn3.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "UpdateBirthDate", 
         "Elements", 
-        "UsernameBtn.json"
+        "BackBtn3.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "UpdateBirthDate", 
         "Elements", 
-        "EmailBtn.json"
+        "NewDay.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "UpdateBirthDate", 
         "Elements", 
-        "PhoneBtn.json"
+        "NewMonth.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "settings", 
+        "UpdateBirthDate", 
         "Elements", 
-        "UpdateDOB.json"
+        "NewYear.json"
       ]
     }
   ], 
@@ -89,7 +89,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "settings", 
+  "id": "UpdateBirthDate", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -97,7 +97,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "UpdateBirthDate.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

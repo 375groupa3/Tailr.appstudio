@@ -50,11 +50,27 @@
           "!type": "External", 
           "file": [
             "forms", 
+            "UpdatePicture", 
+            "UpdatePicture.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
             "settings", 
             "settings.json"
           ]
         }, 
         {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "UpdateUsername", 
+            "UpdateUsername.json"
+          ]
+        }, 
+                {
           "!type": "External", 
           "file": [
             "forms", 
@@ -66,10 +82,26 @@
           "!type": "External", 
           "file": [
             "forms", 
+            "UpdatePassword", 
+            "UpdatePassword.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
             "home", 
             "home.json"
           ]
         }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "UpdateBirthDate", 
+            "UpdateBirthDate.json"
+          ]
+        },
         {
           "!type": "External", 
           "file": [
@@ -91,7 +123,9 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "picUpload", 
+
+      "firstform": "logIn", 
+      
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
