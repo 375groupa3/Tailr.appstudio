@@ -14,14 +14,29 @@ btnSignin.onclick=function(){
     console.log(results) // this shows the array of arrays  
     if (inptPassword.value == results[0][2]) {
           user_id = results[0][0]
-          ChangeForm(create_profile)
-      } else 
+          
+            query = "SELECT profile_id FROM `profile` WHERE user_id =" + '"' + user_id + '"'  
+            console.log(query)
+            req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=ajs85167&pass=BIA375&database=375groupa3&query=" + query)
+
+            if (req1.status == 200) { //transit worked.
+                allUserData = JSON.parse(req1.responseText)
+                console.log("parsed result in onshow:  " + allUserData[0])
+                if (allUserData[0] > 0) {
+                    ChangeForm(settings)
+                } else {
+                    ChangeForm(create_profile)
+                }
+                
+            } else {
+            // transit error
+            NSB.MsgBox("Error: " + req1.status);
+            }  
+        } else 
           NSB.MsgBox("The username or password is incorrect")
   }else
         //transit error - Handle that with an error message.
         NSB.MsgBox("Error code: " + req1.status)
 }
-
-
 
 
