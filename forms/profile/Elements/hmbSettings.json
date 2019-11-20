@@ -25,7 +25,7 @@
   "fontWeight": "", 
   "groupStyle": "", 
   "grouping": "", 
-  "height": "auto", 
+  "height": "60", 
   "hidden": "", 
   "icon": "menu", 
   "iconTitle": "", 
@@ -57,11 +57,11 @@
   "popPosition": "", 
   "popStyle": "popover", 
   "popTitle": "Title", 
-  "right": "auto", 
+  "right": "20", 
   "script": "", 
   "size": " btn-md", 
   "style": "float:right;", 
-  "top": 22, 
+  "top": "20", 
   "value": "", 
-  "width": "auto"
+  "width": "50"
 }

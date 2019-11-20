@@ -70,7 +70,7 @@
             "UpdateUsername.json"
           ]
         }, 
-                {
+        {
           "!type": "External", 
           "file": [
             "forms", 
@@ -101,13 +101,21 @@
             "UpdateBirthDate", 
             "UpdateBirthDate.json"
           ]
-        },
+        }, 
         {
           "!type": "External", 
           "file": [
             "forms", 
             "picCall", 
             "picCall.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "weather", 
+            "weather.json"
           ]
         }
       ], 
@@ -123,9 +131,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-
       "firstform": "logIn", 
-      
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
@@ -161,7 +167,7 @@
       "useStrict": "", 
       "version": "1.0.0", 
       "viewportFit": "cover", 
-      "voltAppId": "kKC3oG", 
+      "voltAppId": "5QC6G0", 
       "voltDomain": ""
     }
   ], 
