@@ -18,3 +18,11 @@ UpdateDOB.onclick=function(){
 Button1.onclick=function(){
   ChangeForm(profile)
 }
+
+EmailBtn.onclick=function(){
+  ChangeForm(UpdateEmail)
+}
+
+PhoneBtn.onclick=function(){
+  ChangeForm(UpdatePhoneNumber)
+}
