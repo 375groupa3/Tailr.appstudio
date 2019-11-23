@@ -109,14 +109,6 @@
             "picCall", 
             "picCall.json"
           ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
-            "weather", 
-            "weather.json"
-          ]
         }
       ], 
       "configxml": null, 
