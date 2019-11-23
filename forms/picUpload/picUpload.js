@@ -32,8 +32,8 @@ picUpload.onshow=function(){
 
 reader = new FileReader();
 
-txtGetPic.onchange=function(){
-  reader.readAsDataURL(txtGetPic.files[0]);
+inptGetPic.onchange=function(){
+  reader.readAsDataURL(inptGetPic.files[0]);
   var picBase64 = ""
   var pic1 = "";
 };
