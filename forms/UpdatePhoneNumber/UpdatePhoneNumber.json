@@ -14,63 +14,54 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "UpdatePicture", 
+        "UpdatePhoneNumber", 
         "Elements", 
-        "lblTailrCopyCopy1.json"
+        "lblTailrTitle3.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "UpdatePicture", 
+        "UpdatePhoneNumber", 
         "Elements", 
-        "profilePicture.json"
+        "UpdatePhoneTxt.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "UpdatePicture", 
+        "UpdatePhoneNumber", 
         "Elements", 
-        "chooseFile.json"
+        "NewPhone.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "UpdatePicture", 
+        "UpdatePhoneNumber", 
         "Elements", 
-        "Label1.json"
+        "CurrentPhone.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "UpdatePicture", 
+        "UpdatePhoneNumber", 
         "Elements", 
-        "UpdateBtn1.json"
+        "UpdateBtn5.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "UpdatePicture", 
+        "UpdatePhoneNumber", 
         "Elements", 
-        "BackBtn1.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "UpdatePicture", 
-        "Elements", 
-        "Label3.json"
+        "BackBtn5.json"
       ]
     }
   ], 
@@ -80,7 +71,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "UpdatePicture", 
+  "id": "UpdatePhoneNumber", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -88,7 +79,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "UpdatePhoneNumber.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

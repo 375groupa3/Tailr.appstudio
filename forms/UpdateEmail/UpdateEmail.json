@@ -14,63 +14,54 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "UpdatePicture", 
+        "UpdateEmail", 
         "Elements", 
-        "lblTailrCopyCopy1.json"
+        "lblTailrTitle2.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "UpdatePicture", 
+        "UpdateEmail", 
         "Elements", 
-        "profilePicture.json"
+        "UpdateEmailTxt.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "UpdatePicture", 
+        "UpdateEmail", 
         "Elements", 
-        "chooseFile.json"
+        "NewEmail.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "UpdatePicture", 
+        "UpdateEmail", 
         "Elements", 
-        "Label1.json"
+        "CurrentEmail.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "UpdatePicture", 
+        "UpdateEmail", 
         "Elements", 
-        "UpdateBtn1.json"
+        "UpdateBtn4.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "UpdatePicture", 
+        "UpdateEmail", 
         "Elements", 
-        "BackBtn1.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "UpdatePicture", 
-        "Elements", 
-        "Label3.json"
+        "BackBtn4.json"
       ]
     }
   ], 
@@ -80,7 +71,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "UpdatePicture", 
+  "id": "UpdateEmail", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -88,7 +79,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "UpdateEmail.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

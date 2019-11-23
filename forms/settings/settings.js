@@ -14,3 +14,15 @@ PasswordBtn.onclick=function(){
 UpdateDOB.onclick=function(){
   ChangeForm(UpdateBirthDate)
 }
+
+Button1.onclick=function(){
+  ChangeForm(profile)
+}
+
+EmailBtn.onclick=function(){
+  ChangeForm(UpdateEmail)
+}
+
+PhoneBtn.onclick=function(){
+  ChangeForm(UpdatePhoneNumber)
+}

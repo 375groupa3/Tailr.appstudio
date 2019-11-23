@@ -109,6 +109,22 @@
             "picCall", 
             "picCall.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "UpdateEmail", 
+            "UpdateEmail.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "UpdatePhoneNumber", 
+            "UpdatePhoneNumber.json"
+          ]
         }
       ], 
       "configxml": null, 
@@ -123,7 +139,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "picUpload", 
+      "firstform": "logIn", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
@@ -159,7 +175,7 @@
       "useStrict": "", 
       "version": "1.0.0", 
       "viewportFit": "cover", 
-      "voltAppId": "kKC3oG", 
+      "voltAppId": "5QC6G0", 
       "voltDomain": ""
     }
   ], 
