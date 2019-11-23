@@ -14,6 +14,10 @@ hmbSettings.onclick=function(){
     break;
   case "Home":
     ChangeForm(home);
+    break;
+  case "Upload a Picture":
+    ChangeForm(picUpload);
+    break;
   }
 }
 
@@ -22,7 +26,7 @@ profile.onshow=function(){
   req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + callQuery)
   if (req3.status == 200) {
     resultCall = JSON.parse(req3.responseText)
-    lblName.value = "Welcome back " + resultCall[0][2] + "!"
+    lblName.value = ("Welcome back " + resultCall[0][2] + "!")
     var callBlob = resultCall[0][1] + '.'
     callBlob = callBlob.replace(/\s/gi, '+')
     console.log(callBlob)

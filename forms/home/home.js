@@ -26,6 +26,20 @@ home.onshow=function(){
   drpCategorySelect.clear()
   for (i = 0; i <= categoryArray.length - 1; i++)
     drpCategorySelect.addItem(categoryArray[i])
+    
+    
+    callQuery = "SELECT * FROM `profile` WHERE user_id =" + '"' + user_id + '"'
+    req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + callQuery)
+    if (req3.status == 200) {
+    resultCall = JSON.parse(req3.responseText)
+    var callBlob = resultCall[0][1] + '.'
+    callBlob = callBlob.replace(/\s/gi, '+')
+    picArray = callBlob.split(".")
+    homeProfilePicture.src = picArray[0]
+    }
+  else{
+    imgProfilePic.src = ''
+    }
 }
 
 
@@ -35,7 +49,7 @@ drpClothingGenderSelect.onclick=function(s){
   } else {
     drpClothingGenderSelect.value = s
     genderFilter = "= " + '"' + s + '"'
-    alert(genderFilter)
+    //alert(genderFilter)
     //NSB.MsgBox("s is " + s + " and .selection is " + drpClothingGender.selection)
   }
 }
@@ -158,4 +172,8 @@ btnFilterSubmit.onclick=function(){
       alert("Error: " + req3.status)
     }
     */
+}
+
+homeProfilePicture.onclick=function(){
+  ChangeForm(profile)
 }

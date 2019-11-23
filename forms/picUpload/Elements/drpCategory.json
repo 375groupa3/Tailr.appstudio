@@ -9,7 +9,7 @@
   "borderColor": "", 
   "borderStyle": "", 
   "borderWidth": "", 
-  "bottom": "450", 
+  "bottom": "0", 
   "cached_js": "", 
   "cached_js_script_hash": "d41d8cd98f00b204e9800998ecf8427e", 
   "children": [], 
@@ -58,11 +58,11 @@
   "popPosition": "", 
   "popStyle": "popover", 
   "popTitle": "Title", 
-  "right": "auto", 
+  "right": "", 
   "script": "", 
   "size": " btn-md", 
   "style": "", 
-  "top": 401, 
+  "top": "", 
   "value": "Category", 
   "width": 152
 }

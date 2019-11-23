@@ -14,108 +14,54 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "home", 
+        "UpdatePhoneNumber", 
         "Elements", 
-        "drpClothingGenderSelect.json"
+        "lblTailrTitle3.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "home", 
+        "UpdatePhoneNumber", 
         "Elements", 
-        "drpWeatherSelect.json"
+        "UpdatePhoneTxt.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "home", 
+        "UpdatePhoneNumber", 
         "Elements", 
-        "drpColorSelect.json"
+        "NewPhone.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "home", 
+        "UpdatePhoneNumber", 
         "Elements", 
-        "drpBrandSelect.json"
+        "CurrentPhone.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "home", 
+        "UpdatePhoneNumber", 
         "Elements", 
-        "drpCategorySelect.json"
+        "UpdateBtn5.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "home", 
+        "UpdatePhoneNumber", 
         "Elements", 
-        "btnFilterSubmit.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "home", 
-        "Elements", 
-        "btnFilterReset.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "home", 
-        "Elements", 
-        "imgHome1.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "home", 
-        "Elements", 
-        "imgHome2.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "home", 
-        "Elements", 
-        "imgHome3.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "home", 
-        "Elements", 
-        "imgHome4.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "home", 
-        "Elements", 
-        "homeProfilePicture.json"
+        "BackBtn5.json"
       ]
     }
   ], 
@@ -125,7 +71,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "home", 
+  "id": "UpdatePhoneNumber", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -133,7 +79,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "home.onshow()", 
+  "onshow": "UpdatePhoneNumber.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

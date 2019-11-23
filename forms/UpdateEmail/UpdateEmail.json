@@ -14,108 +14,54 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "home", 
+        "UpdateEmail", 
         "Elements", 
-        "drpClothingGenderSelect.json"
+        "lblTailrTitle2.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "home", 
+        "UpdateEmail", 
         "Elements", 
-        "drpWeatherSelect.json"
+        "UpdateEmailTxt.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "home", 
+        "UpdateEmail", 
         "Elements", 
-        "drpColorSelect.json"
+        "NewEmail.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "home", 
+        "UpdateEmail", 
         "Elements", 
-        "drpBrandSelect.json"
+        "CurrentEmail.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "home", 
+        "UpdateEmail", 
         "Elements", 
-        "drpCategorySelect.json"
+        "UpdateBtn4.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "home", 
+        "UpdateEmail", 
         "Elements", 
-        "btnFilterSubmit.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "home", 
-        "Elements", 
-        "btnFilterReset.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "home", 
-        "Elements", 
-        "imgHome1.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "home", 
-        "Elements", 
-        "imgHome2.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "home", 
-        "Elements", 
-        "imgHome3.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "home", 
-        "Elements", 
-        "imgHome4.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "home", 
-        "Elements", 
-        "homeProfilePicture.json"
+        "BackBtn4.json"
       ]
     }
   ], 
@@ -125,7 +71,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "home", 
+  "id": "UpdateEmail", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -133,7 +79,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "home.onshow()", 
+  "onshow": "UpdateEmail.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

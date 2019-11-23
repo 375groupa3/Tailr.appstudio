@@ -109,6 +109,22 @@
             "picCall", 
             "picCall.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "UpdateEmail", 
+            "UpdateEmail.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "UpdatePhoneNumber", 
+            "UpdatePhoneNumber.json"
+          ]
         }
       ], 
       "configxml": null, 

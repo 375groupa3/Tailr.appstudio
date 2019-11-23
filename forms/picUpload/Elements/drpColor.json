@@ -9,7 +9,7 @@
   "borderColor": "", 
   "borderStyle": "", 
   "borderWidth": "", 
-  "bottom": "450", 
+  "bottom": "0", 
   "cached_js": "", 
   "cached_js_script_hash": "d41d8cd98f00b204e9800998ecf8427e", 
   "children": [], 
@@ -32,7 +32,7 @@
   "icon": "caret", 
   "id": "drpColor", 
   "items": "", 
-  "left": 171, 
+  "left": "", 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -62,7 +62,7 @@
   "script": "", 
   "size": " btn-md", 
   "style": "", 
-  "top": "401", 
+  "top": "", 
   "value": "Primary Color", 
   "width": 152
 }
