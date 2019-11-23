@@ -14,6 +14,10 @@ hmbSettings.onclick=function(){
     break;
   case "Home":
     ChangeForm(home);
+    break;
+  case "Upload a Picture":
+    ChangeForm(picUpload);
+    break;
   }
 }
 
@@ -32,6 +36,8 @@ profile.onshow=function(){
   else{
     imgProfilePic.src = ''
     }
-  
-  
+}
+
+btnUpload.onclick=function(){
+  ChangeForm(picUpload)
 }
