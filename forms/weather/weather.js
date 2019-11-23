@@ -51,7 +51,8 @@ let myurl = `https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/d
                     // If our results are 0; no businesses were returned by the call therefor we display on the page no results were found
                     console.log("No businesses found")
             } // close success funct
-            */
+
          });   // close ajax call
 
 } //close onclick
+*/

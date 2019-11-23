@@ -125,6 +125,6 @@ hmbUpload.onclick=function(s){
   if (typeof(s) == "object") {
     return;
   }
-  if {s === "Home")
+  if (s === "Home")
     ChangeForm(home)
 }
