@@ -121,10 +121,8 @@ drpCategory.onclick=function(s){
   }
 }
 
-hmbUpload.onclick=function(s){
-  if (typeof(s) == "object") {
-    return;
-  }
-  if {s === "Home")
+hmbUpload.onclick=function(){
+  if (hmbUpload.selection == "Home") {
     ChangeForm(home)
+  }
 }

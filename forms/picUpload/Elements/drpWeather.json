@@ -32,7 +32,7 @@
   "icon": "caret", 
   "id": "drpWeather", 
   "items": "", 
-  "left": "171", 
+  "left": "auto", 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 

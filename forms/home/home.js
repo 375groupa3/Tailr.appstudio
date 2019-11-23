@@ -35,7 +35,7 @@ drpClothingGenderSelect.onclick=function(s){
   } else {
     drpClothingGenderSelect.value = s
     genderFilter = "= " + '"' + s + '"'
-    alert(genderFilter)
+    //alert(genderFilter)
     //NSB.MsgBox("s is " + s + " and .selection is " + drpClothingGender.selection)
   }
 }
