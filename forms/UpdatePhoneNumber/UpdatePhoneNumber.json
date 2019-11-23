@@ -14,36 +14,54 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "profile", 
+        "UpdatePhoneNumber", 
         "Elements", 
-        "hmbSettings.json"
+        "lblTailrTitle3.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "profile", 
+        "UpdatePhoneNumber", 
         "Elements", 
-        "imgProfilePic.json"
+        "UpdatePhoneTxt.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "profile", 
+        "UpdatePhoneNumber", 
         "Elements", 
-        "lblName.json"
+        "NewPhone.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "profile", 
+        "UpdatePhoneNumber", 
         "Elements", 
-        "lblTailrProfile.json"
+        "CurrentPhone.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "UpdatePhoneNumber", 
+        "Elements", 
+        "UpdateBtn5.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "UpdatePhoneNumber", 
+        "Elements", 
+        "BackBtn5.json"
       ]
     }
   ], 
@@ -53,7 +71,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "profile", 
+  "id": "UpdatePhoneNumber", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -61,7 +79,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "profile.onshow()", 
+  "onshow": "UpdatePhoneNumber.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

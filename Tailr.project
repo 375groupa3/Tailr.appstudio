@@ -70,7 +70,7 @@
             "UpdateUsername.json"
           ]
         }, 
-                {
+        {
           "!type": "External", 
           "file": [
             "forms", 
@@ -101,13 +101,29 @@
             "UpdateBirthDate", 
             "UpdateBirthDate.json"
           ]
-        },
+        }, 
         {
           "!type": "External", 
           "file": [
             "forms", 
             "picCall", 
             "picCall.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "UpdateEmail", 
+            "UpdateEmail.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "UpdatePhoneNumber", 
+            "UpdatePhoneNumber.json"
           ]
         }
       ], 
