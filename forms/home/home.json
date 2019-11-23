@@ -108,6 +108,15 @@
         "Elements", 
         "imgHome4.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "home", 
+        "Elements", 
+        "homeProfilePicture.json"
+      ]
     }
   ], 
   "class": "", 

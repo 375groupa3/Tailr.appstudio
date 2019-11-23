@@ -14,6 +14,10 @@ hmbSettings.onclick=function(){
     break;
   case "Home":
     ChangeForm(home);
+    break;
+  case "Upload a Picture":
+    ChangeForm(picUpload);
+    break;
   }
 }
 
