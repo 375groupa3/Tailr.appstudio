@@ -36,6 +36,8 @@ profile.onshow=function(){
   else{
     imgProfilePic.src = ''
     }
-  
-  
+}
+
+btnUpload.onclick=function(){
+  ChangeForm(picUpload)
 }
