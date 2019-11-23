@@ -32,8 +32,8 @@ picUpload.onshow=function(){
 
 reader = new FileReader();
 
-txtGetPic.onchange=function(){
-  reader.readAsDataURL(txtGetPic.files[0]);
+inptGetPic.onchange=function(){
+  reader.readAsDataURL(inptGetPic.files[0]);
   var picBase64 = ""
   var pic1 = "";
 };
@@ -121,10 +121,8 @@ drpCategory.onclick=function(s){
   }
 }
 
-hmbUpload.onclick=function(s){
-  if (typeof(s) == "object") {
-    return;
-  }
-  if (s === "Home")
+hmbUpload.onclick=function(){
+  if (hmbUpload.selection == "Home") {
     ChangeForm(home)
+  }
 }

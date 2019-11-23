@@ -25,15 +25,6 @@
         "forms", 
         "picUpload", 
         "Elements", 
-        "txtGetPic.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "picUpload", 
-        "Elements", 
         "savePic.json"
       ]
     }, 
@@ -89,6 +80,15 @@
         "picUpload", 
         "Elements", 
         "hmbUpload.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "picUpload", 
+        "Elements", 
+        "inptGetPic.json"
       ]
     }
   ], 
