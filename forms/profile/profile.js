@@ -11,6 +11,9 @@ hmbSettings.onclick=function(){
     break;
   case "Add account":
     ChangeForm(logIn);
+    break;
+  case "Home":
+    ChangeForm(home);
   }
 }
 
