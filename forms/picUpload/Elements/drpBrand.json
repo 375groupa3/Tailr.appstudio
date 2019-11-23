@@ -32,7 +32,7 @@
   "icon": "caret", 
   "id": "drpBrand", 
   "items": "", 
-  "left": "0", 
+  "left": 0, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -62,7 +62,7 @@
   "script": "", 
   "size": " btn-md", 
   "style": "", 
-  "top": "350", 
+  "top": 388, 
   "value": "Brand", 
   "width": 152
 }
