@@ -3,6 +3,7 @@ var weatherFilter = "IS NOT NULL"
 var colorFilter = "IS NOT NULL"
 var brandFilter = "IS NOT NULL"
 var categoryFilter = "IS NOT NULL"
+
 /*
 let genderArray = ["Men's", "Women's", "Unisex"]
 let weatherArray = ["Hot","Cold","Rain","Snow", "All-weather"]
@@ -10,6 +11,7 @@ let colorArray = ["White", "Yellow", "Red", "Pink", "Blue", "Green", "Orange", "
 let brandArray = ["Nike","Adidas","Levi","Gucci","Polo Ralph Lauren","Calvin Klein","Aeropostale","Versace","American Eagle","Victoria's Secret", "Other"]
 let categoryArray = ["Sport","Formal","Casual","Outdoors", "Other"]
 */
+
 home.onshow=function(){
   drpClothingGenderSelect.clear()
   for (i = 0; i <= genderArray.length - 1; i++)
