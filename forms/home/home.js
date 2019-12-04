@@ -29,8 +29,9 @@ home.onshow=function(){
   for (i = 0; i <= categoryArray.length - 1; i++)
     drpCategorySelect.addItem(categoryArray[i])
     
-    
+    /*
     callQuery = "SELECT * FROM `profile` WHERE user_id =" + '"' + user_id + '"'
+    alert(callQuery)
     req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + callQuery)
     if (req3.status == 200) {
     resultCall = JSON.parse(req3.responseText)
@@ -41,7 +42,7 @@ home.onshow=function(){
     }
   else{
     imgProfilePic.src = ''
-    }
+    } */
 }
 
 
@@ -110,17 +111,20 @@ btnFilterSubmit.onclick=function(){
   let picMin = ""
   let picMax = ""
   let picArray = ""
-  let randomPic
+  //let randomPic
   
-  var picIDquery = "SELECT picture_id FROM image_attributes where gender " + genderFilter + " AND weather " + weatherFilter + " AND color " + colorFilter + " AND brand " + brandFilter + " AND category " + categoryFilter
-  //alert(picIDquery)
+  var picIDquery = "SELECT picture_id FROM image_attributes where gender " + genderFilter + " AND weather " + weatherFilter + " AND color " + colorFilter + " AND brand " + brandFilter + " AND category " + categoryFilter + " ORDER BY RAND() LIMIT 4;"
+  alert(picIDquery)
   req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + picIDquery)
   if (req1.status == 200) {
   picIDArray = JSON.parse(req1.responseText)
-  randomPicID = picIDArray[Math.floor(Math.random()*picIDArray.length)];
+  
+  alert(picIDArray)
+  //randomPicID = picIDArray[Math.floor(Math.random()*picIDArray.length)];
+  randomPicID1 = picIDArray[0]
   //alert(randomPicID)
-  var callQuery = "SELECT picture FROM picture WHERE picture_id =" + randomPicID + ";"
-  req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + callQuery)
+  var callQuery1 = "SELECT picture FROM picture WHERE picture_id =" + randomPicID1 + ";"
+  req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + callQuery1)
   if (req3.status == 200) {
     resultCall = JSON.parse(req3.responseText)
     var callBlob = resultCall[0][0] + '.'
@@ -131,6 +135,55 @@ btnFilterSubmit.onclick=function(){
     } else {
       //Handle that. 
       alert("Error: " + req3.status)
+    }
+    
+  randomPicID2 = picIDArray[1]
+  var callQuery2 = "SELECT picture FROM picture WHERE picture_id =" + randomPicID2 + ";"
+  req4 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + callQuery2)
+  if (req4.status == 200) {
+    resultCall = JSON.parse(req4.responseText)
+    var callBlob = resultCall[0][0] + '.'
+    callBlob = callBlob.replace(/\s/gi, '+')
+    //console.log(callBlob)
+    picArray = callBlob.split(".")
+    imgHome2.src = picArray[0]
+    } else {
+      //Handle that. 
+      alert("Error: " + req4.status)
+    }
+    
+    
+    
+    
+  randomPicID3 = picIDArray[2]
+  var callQuery3 = "SELECT picture FROM picture WHERE picture_id =" + randomPicID3 + ";"
+  req5 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + callQuery3)
+  if (req4.status == 200) {
+    resultCall = JSON.parse(req5.responseText)
+    var callBlob = resultCall[0][0] + '.'
+    callBlob = callBlob.replace(/\s/gi, '+')
+    //console.log(callBlob)
+    picArray = callBlob.split(".")
+    imgHome3.src = picArray[0]
+    } else {
+      //Handle that. 
+      alert("Error: " + req5.status)
+    }
+    
+    
+  randomPicID4 = picIDArray[3]
+  var callQuery4 = "SELECT picture FROM picture WHERE picture_id =" + randomPicID4 + ";"
+  req5 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + callQuery4)
+  if (req4.status == 200) {
+    resultCall = JSON.parse(req5.responseText)
+    var callBlob = resultCall[0][0] + '.'
+    callBlob = callBlob.replace(/\s/gi, '+')
+    //console.log(callBlob)
+    picArray = callBlob.split(".")
+    imgHome4.src = picArray[0]
+    } else {
+      //Handle that. 
+      alert("Error: " + req5.status)
     }
   }
   
@@ -178,4 +231,10 @@ btnFilterSubmit.onclick=function(){
 
 homeProfilePicture.onclick=function(){
   ChangeForm(profile)
+}
+
+hmbHome.onclick=function(){
+  if (hmbHome.selection == "Upload Photo") {
+    ChangeForm(picUpload)
+  }
 }
