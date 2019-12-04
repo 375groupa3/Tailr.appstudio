@@ -1,7 +1,4 @@
 
-btnSignUp.onclick=function(){
-  ChangeForm(signUp)
-}
 let user_id = ""
 
 btnSignin.onclick=function(){
@@ -33,10 +30,12 @@ btnSignin.onclick=function(){
             NSB.MsgBox("Error: " + req1.status);
             }  
         } else 
-          NSB.MsgBox("The username or password is incorrect")
+          ErrorMsg.value = ("The username or password is incorrect.")
   }else
         //transit error - Handle that with an error message.
         NSB.MsgBox("Error code: " + req1.status)
 }
 
-
+CreateAccount.onclick=function(){
+    ChangeForm(signUp)
+}
