@@ -29,7 +29,7 @@
   "icon": "", 
   "iconTitle": "", 
   "id": "savePic", 
-  "left": "", 
+  "left": "240", 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -55,12 +55,12 @@
   "popPosition": "", 
   "popStyle": "popover", 
   "popTitle": "Title", 
-  "right": "0", 
+  "right": "auto", 
   "script": "", 
   "size": " btn-md", 
   "style": "", 
   "toggleControl": "", 
-  "top": "302", 
+  "top": "230", 
   "value": "Save", 
-  "width": ""
+  "width": "80"
 }
