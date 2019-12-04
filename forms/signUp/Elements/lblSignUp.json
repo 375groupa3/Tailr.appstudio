@@ -19,7 +19,7 @@
   "hidden": "", 
   "id": "lblSignUp", 
   "labelStyle": "text", 
-  "left": 58, 
+  "left": 51, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 92, 
+  "top": 89, 
   "value": "Sign Up", 
   "width": "auto"
 }

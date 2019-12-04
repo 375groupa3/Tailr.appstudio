@@ -19,7 +19,7 @@
   "hidden": "", 
   "id": "WhiteBackgroundCopy", 
   "labelStyle": "text", 
-  "left": 40, 
+  "left": 30, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -44,5 +44,5 @@
   "style": "", 
   "top": 28, 
   "value": "", 
-  "width": 251
+  "width": 259
 }
