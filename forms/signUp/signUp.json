@@ -81,6 +81,15 @@
         "Elements", 
         "lblCurrentMem.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "signUp", 
+        "Elements", 
+        "Msg.json"
+      ]
     }
   ], 
   "class": "", 
