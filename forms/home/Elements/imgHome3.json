@@ -1,7 +1,7 @@
 {
   "!type": "Image_bs4", 
   "backgroundColor": "", 
-  "bottom": "auto", 
+  "bottom": "0", 
   "cached_js": "", 
   "cached_js_script_hash": "d41d8cd98f00b204e9800998ecf8427e", 
   "center": "", 
@@ -48,6 +48,6 @@
   "shape": "", 
   "src": "nsb/images/192.png", 
   "style": "", 
-  "top": "220", 
+  "top": "300", 
   "width": "160"
 }

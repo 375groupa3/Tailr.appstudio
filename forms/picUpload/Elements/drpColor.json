@@ -32,7 +32,7 @@
   "icon": "caret", 
   "id": "drpColor", 
   "items": "", 
-  "left": "", 
+  "left": "0", 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -58,11 +58,11 @@
   "popPosition": "", 
   "popStyle": "popover", 
   "popTitle": "Title", 
-  "right": "0", 
+  "right": "auto", 
   "script": "", 
   "size": " btn-md", 
   "style": "", 
-  "top": "", 
+  "top": "390", 
   "value": "Primary Color", 
   "width": 152
 }

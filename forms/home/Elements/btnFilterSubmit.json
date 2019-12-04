@@ -9,7 +9,7 @@
   "borderColor": "", 
   "borderStyle": "", 
   "borderWidth": "", 
-  "bottom": "60", 
+  "bottom": "320", 
   "cached_js": "", 
   "cached_js_script_hash": "d41d8cd98f00b204e9800998ecf8427e", 
   "children": [], 
@@ -60,7 +60,7 @@
   "size": " btn-sm", 
   "style": "", 
   "toggleControl": "", 
-  "top": "30", 
+  "top": "110", 
   "value": "Search", 
   "width": "160"
 }

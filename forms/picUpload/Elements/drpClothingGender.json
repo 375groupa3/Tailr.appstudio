@@ -32,7 +32,7 @@
   "icon": "caret", 
   "id": "drpClothingGender", 
   "items": "Men\nWomen\nUnisex", 
-  "left": "", 
+  "left": "0", 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -62,7 +62,7 @@
   "script": "", 
   "size": " btn-md", 
   "style": "", 
-  "top": "302", 
+  "top": "230", 
   "value": "Outfit Gender", 
   "width": ""
 }
