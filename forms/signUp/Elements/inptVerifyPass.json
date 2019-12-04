@@ -32,8 +32,8 @@
   "id": "inptVerifyPass", 
   "inputType": "password", 
   "inputmode": "", 
-  "left": 4, 
-  "leftText": "Password", 
+  "left": 55, 
+  "leftText": "", 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -80,9 +80,9 @@
   "spellcheck": "true", 
   "step": "", 
   "style": "", 
-  "top": 224, 
+  "top": 238, 
   "validation": "", 
   "value": "", 
   "valueCols": 10, 
-  "width": "auto"
+  "width": "226"
 }
