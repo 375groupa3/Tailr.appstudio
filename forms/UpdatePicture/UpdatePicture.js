@@ -1,6 +1,6 @@
 
 BackBtn1.onclick=function(){
-  ChangeForm(settings)
+  ChangeForm(profile)
 }
 
 chooseFile.onchange=function(){
@@ -24,9 +24,43 @@ UpdateBtn1.onclick=function(){
     if (req1.status == 200) { //transit worked.
         if (req1.responseText == 500) {   // means the update succeeded
         } 
-        Label3.value = "You changed your profile picture."
+        StatusTxt2.value = "You changed your profile picture."
+        
+        
+        callQuery = "SELECT * FROM `profile` WHERE user_id =" + '"' + user_id + '"'
+        req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + callQuery)
+        if (req3.status == 200) {
+            resultCall = JSON.parse(req3.responseText)
+            lblName.value = ("Welcome back " + resultCall[0][2] + "!")
+            var callBlob = resultCall[0][1] + '.'
+            callBlob = callBlob.replace(/\s/gi, '+')
+            picArray = callBlob.split(".")
+            profilePicture.src = picArray[0]
+            
+            } else{
+                profilePicture.src = ''
+        }
+    
     } else {
         // transit error
         NSB.MsgBox("Error: " + req1.status);
     }  
+}
+
+UpdatePicture.onshow=function(){
+    StatusTxt2.value = ""
+    
+    callQuery = "SELECT * FROM `profile` WHERE user_id =" + '"' + user_id + '"'
+  req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + callQuery)
+  if (req3.status == 200) {
+    resultCall = JSON.parse(req3.responseText)
+    lblName.value = ("Welcome back " + resultCall[0][2] + "!")
+    var callBlob = resultCall[0][1] + '.'
+    callBlob = callBlob.replace(/\s/gi, '+')
+    picArray = callBlob.split(".")
+    profilePicture.src = picArray[0]
+    }
+  else{
+    profilePicture.src = ''
+    }
 }

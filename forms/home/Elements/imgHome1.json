@@ -23,7 +23,7 @@
   "mLeft": "", 
   "mRight": "", 
   "mTop": "", 
-  "onclick": "", 
+  "onclick": "imgHome1.onclick()", 
   "onmousedown": "", 
   "onmousemove": "", 
   "onmouseout": "", 

@@ -1,6 +1,6 @@
 {
   "!type": "Label_bs4", 
-  "appearance": "primary", 
+  "appearance": "danger", 
   "backgroundColor": "", 
   "borderRadius": "0", 
   "bottom": "auto", 
@@ -12,14 +12,14 @@
   "display": "", 
   "expanded_pmp": null, 
   "fontFamily": "", 
-  "fontSize": "", 
+  "fontSize": "12", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": 70, 
+  "height": 32, 
   "hidden": "", 
-  "id": "Label3", 
+  "id": "Msg2", 
   "labelStyle": "text", 
-  "left": 159, 
+  "left": 57, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 136, 
+  "top": 282, 
   "value": "", 
-  "width": 132
+  "width": 220
 }
