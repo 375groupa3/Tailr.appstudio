@@ -8,7 +8,7 @@ UpdateUsername.onshow=function(){
     if (req1.status == 200) { //transit worked.
             allUserData = JSON.parse(req1.responseText)
             console.log("parsed result in onshow:  " + allUserData)
-            CurrentUsername.value = "Current username : " + allUserData
+            NewUsername.value = allUserData
     } else {
         // transit error
         NSB.MsgBox("Error: " + req1.status);
@@ -18,7 +18,7 @@ UpdateUsername.onshow=function(){
 
 
 BackBtn.onclick=function(){
-  ChangeForm(settings)
+  ChangeForm(profile)
 }
 
 UpdateBtn.onclick=function(){
@@ -30,7 +30,7 @@ UpdateBtn.onclick=function(){
     if (req1.status == 200) { //transit worked.
         if (req1.responseText == 500) {   // means the update succeeded
             var result = JSON.parse(req1.responseText)
-            CurrentUsername.value = "You have updated your username to " + newUsername + "."
+            ChangeForm(profile)
         } else
             NSB.MsgBox("There was a problem changing the customer's name.")
     } else {

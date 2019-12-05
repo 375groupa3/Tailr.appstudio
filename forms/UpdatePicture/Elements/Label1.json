@@ -19,7 +19,7 @@
   "hidden": "", 
   "id": "Label1", 
   "labelStyle": "text", 
-  "left": 15, 
+  "left": 13, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 83, 
+  "top": 11, 
   "value": "Update Profile Picture", 
   "width": "auto"
 }

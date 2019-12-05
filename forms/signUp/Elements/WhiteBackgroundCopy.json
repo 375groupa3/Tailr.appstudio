@@ -1,8 +1,8 @@
 {
   "!type": "Label_bs4", 
   "appearance": "primary", 
-  "backgroundColor": "", 
-  "borderRadius": "0", 
+  "backgroundColor": "white", 
+  "borderRadius": "8", 
   "bottom": "auto", 
   "cached_js": "", 
   "cached_js_script_hash": "d41d8cd98f00b204e9800998ecf8427e", 
@@ -15,11 +15,11 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": 31, 
+  "height": 359, 
   "hidden": "", 
-  "id": "Label2", 
+  "id": "WhiteBackgroundCopy", 
   "labelStyle": "text", 
-  "left": 25, 
+  "left": 30, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 85, 
-  "value": "Settings", 
-  "width": 113
+  "top": 28, 
+  "value": "", 
+  "width": 259
 }

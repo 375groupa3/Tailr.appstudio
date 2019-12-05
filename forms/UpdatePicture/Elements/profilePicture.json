@@ -17,7 +17,7 @@
   "height": 88, 
   "hidden": "", 
   "id": "profilePicture", 
-  "left": 20, 
+  "left": 206, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -45,9 +45,9 @@
   "responsive": " img-fluid", 
   "right": "auto", 
   "script": "", 
-  "shape": "", 
+  "shape": " rounded-circle", 
   "src": "nsb/images/192.png", 
   "style": "", 
-  "top": 121, 
+  "top": 17, 
   "width": 89
 }

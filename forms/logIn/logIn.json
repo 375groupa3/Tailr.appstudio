@@ -2,7 +2,7 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "Blue", 
+  "background": "#007BFF", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
@@ -71,6 +71,15 @@
         "logIn", 
         "Elements", 
         "ErrorMsg.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "logIn", 
+        "Elements", 
+        "SignInlbl.json"
       ]
     }
   ], 

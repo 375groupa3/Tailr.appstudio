@@ -5,7 +5,6 @@ let birthYear = ""
 let gender = ""
 let phone = ""
 let email = ""
-let query = ""
 let birthDate = ""
 let picBase64 = ""
 let pic1 = ""
@@ -13,6 +12,9 @@ let userData = ''
 
 reader = new FileReader();
 
+ChooseFile.onchange=function(){
+    reader.readAsDataURL(ChooseFile.files[0]);  
+}
 reader.onload = function(e) {
      //read of the file is complete.
      //Now, let's load it into an image.
@@ -43,7 +45,7 @@ CreateProfileBtn.onclick=function(){
     }
     
     query = "INSERT INTO `profile` (profile_picture,first_name,birth_date,gender,phone,email,user_id) VALUES ('" + picBase64 + "', '" + firstName + "', '" + birthDate + "', '" + gender + "', '" + phone + "', '" + email + "', '" + user_id + "')"
-    
+    console.log(query)
     req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=ajs85167&pass=BIA375&database=375groupa3&query=" + query);
     
     if (req1.status == 200) { //transit worked.
@@ -85,8 +87,4 @@ BirthYearDrop.onclick=function(s){
   } else {
     BirthYearDrop.value = s   // make dropdown show choice user made
   }
-}
-
-ChooseFile.onchange=function(){
-    reader.readAsDataURL(ChooseFile.files[0]);  
 }

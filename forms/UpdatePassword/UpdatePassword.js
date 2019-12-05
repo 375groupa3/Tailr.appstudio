@@ -2,7 +2,7 @@ newPassword = ""
 newPasswordCheck = ""
 
 BackBtn2.onclick=function(){
-  ChangeForm(settings)
+  ChangeForm(profile)
 }
 
 UpdateBtn2.onclick=function(){
@@ -11,13 +11,13 @@ UpdateBtn2.onclick=function(){
     
     if (newPassword == newPasswordCheck) {
     
-        var query = "UPDATE user SET password =" + '"' + newPassword + '"' + " WHERE user_id = 3;"
+        var query = "UPDATE user SET password =" + '"' + newPassword + '"' + " WHERE user_id =" + '"' + user_id + '"'
         req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=ajs85167&pass=BIA375&database=375groupa3&query=" + query);
 
         if (req1.status == 200) { //transit worked.
             if (req1.responseText == 500) {   // means the update succeeded
                 var result = JSON.parse(req1.responseText)
-                StatusTxt.value = "You have updated your password."
+                ChangeForm(profile)
             } else
                 NSB.MsgBox("There was a problem changing the customer's name.")
         } else {
@@ -27,4 +27,9 @@ UpdateBtn2.onclick=function(){
     }  else {
         StatusTxt.value = "Your passwords do not match."
         }
+}
+
+
+UpdatePassword.onshow=function(){
+  StatusTxt.value = ""
 }

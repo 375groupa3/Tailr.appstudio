@@ -48,28 +48,32 @@ reader.onload = function(e) {
 };
 
 savePic.onclick=function(){
-  var query = "INSERT INTO picture (picture) VALUES (" + '"' + picBase64 + '")'
-  //console.log(picBase64)
-  req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + query)
-  if (req1.status == 200) {
-    //alert("successfully inserted picture")
-    var lastIDquery = "SELECT MAX(picture_id) FROM picture"
-    req2 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + lastIDquery)
-    if (req2.status == 200) {
-      lastID = JSON.parse(req2.responseText)
-      //alert(lastID)
-      var attributesQuery = "INSERT INTO image_attributes (picture_id, gender, weather, color, brand, category) VALUES (" + '"' + lastID + '",' + '"' + genderSelect + '",' + '"' + weatherSelect  + '",' + '"' + colorSelect + '",' + '"' + brandSelect + '",' + '"' + categorySelect + '")'
-      req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + attributesQuery)
-      if (req3.status == 200) {
-        alert("successfully inserted picture attributes")
+  if (picBase64.length == 0) {
+    NSB.MsgBox("Please upload a picture")
+  } else {
+    var query = "INSERT INTO picture (picture) VALUES (" + '"' + picBase64 + '")'
+    //console.log(picBase64)
+    req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + query)
+    if (req1.status == 200) {
+      //alert("successfully inserted picture")
+      var lastIDquery = "SELECT MAX(picture_id) FROM picture"
+      req2 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + lastIDquery)
+      if (req2.status == 200) {
+        lastID = JSON.parse(req2.responseText)
+        //alert(lastID)
+        var attributesQuery = "INSERT INTO image_attributes (picture_id, gender, weather, color, brand, category) VALUES (" + '"' + lastID + '",' + '"' + genderSelect + '",' + '"' + weatherSelect  + '",' + '"' + colorSelect + '",' + '"' + brandSelect + '",' + '"' + categorySelect + '")'
+        req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + attributesQuery)
+        if (req3.status == 200) {
+          alert("successfully inserted picture attributes")
+        } else {
+          alert("failed to insert attributes + req3.status")
+        }
       } else {
-        alert("failed to insert attributes + req3.status")
+        alert("you have failed" + req2.status)
       }
     } else {
-      alert("you have failed" + req2.status)
+      alert("You have failed" +  req1.status)
     }
-  } else {
-    alert("You have failed" +  req1.status)
   }
 }
 

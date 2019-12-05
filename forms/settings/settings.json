@@ -16,7 +16,7 @@
         "forms", 
         "settings", 
         "Elements", 
-        "lblTailrCopyCopy1Copy.json"
+        "Background.json"
       ]
     }, 
     {
@@ -25,7 +25,7 @@
         "forms", 
         "settings", 
         "Elements", 
-        "Label2.json"
+        "EditProfile.json"
       ]
     }, 
     {
@@ -34,7 +34,7 @@
         "forms", 
         "settings", 
         "Elements", 
-        "ProfilePicturebtn.json"
+        "Done.json"
       ]
     }, 
     {
@@ -43,7 +43,7 @@
         "forms", 
         "settings", 
         "Elements", 
-        "PasswordBtn.json"
+        "UpdateName.json"
       ]
     }, 
     {
@@ -52,7 +52,7 @@
         "forms", 
         "settings", 
         "Elements", 
-        "UsernameBtn.json"
+        "UpdateBdate.json"
       ]
     }, 
     {
@@ -61,7 +61,7 @@
         "forms", 
         "settings", 
         "Elements", 
-        "EmailBtn.json"
+        "Back.json"
       ]
     }, 
     {
@@ -70,7 +70,7 @@
         "forms", 
         "settings", 
         "Elements", 
-        "PhoneBtn.json"
+        "Email.json"
       ]
     }, 
     {
@@ -79,7 +79,7 @@
         "forms", 
         "settings", 
         "Elements", 
-        "UpdateDOB.json"
+        "Phone.json"
       ]
     }, 
     {
@@ -88,7 +88,52 @@
         "forms", 
         "settings", 
         "Elements", 
-        "Button1.json"
+        "Gender.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "settings", 
+        "Elements", 
+        "Nametxt.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "settings", 
+        "Elements", 
+        "DOBtxt.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "settings", 
+        "Elements", 
+        "Gendertxt.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "settings", 
+        "Elements", 
+        "Phonetxt.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "settings", 
+        "Elements", 
+        "Emailtxt.json"
       ]
     }
   ], 
@@ -106,7 +151,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "settings.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

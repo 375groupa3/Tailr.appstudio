@@ -147,7 +147,11 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
+<<<<<<< HEAD
       "firstform": "logIn", 
+=======
+      "firstform": "create_profile", 
+>>>>>>> 3b7a003288a1f6505b8a90474dc1721048244f1b
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
@@ -183,7 +187,7 @@
       "useStrict": "", 
       "version": "1.0.0", 
       "viewportFit": "cover", 
-      "voltAppId": "5QC6G0", 
+      "voltAppId": "QJC88y", 
       "voltDomain": ""
     }
   ], 
