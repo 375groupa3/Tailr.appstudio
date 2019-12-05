@@ -32,7 +32,7 @@
   "id": "inptUsername", 
   "inputType": "text", 
   "inputmode": "", 
-  "left": 40, 
+  "left": "40", 
   "leftText": "", 
   "mAll": "", 
   "mBottom": "", 
@@ -73,7 +73,7 @@
   "popTitle": "Title", 
   "readonly": "", 
   "required": "", 
-  "right": "auto", 
+  "right": "40", 
   "script": "", 
   "size": "", 
   "size-lg": 4, 
@@ -84,5 +84,5 @@
   "validation": "", 
   "value": "", 
   "valueCols": 10, 
-  "width": "auto"
+  "width": 250
 }

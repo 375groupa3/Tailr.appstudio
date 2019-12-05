@@ -32,8 +32,8 @@
   "id": "inptCreateUser", 
   "inputType": "text", 
   "inputmode": "", 
-  "left": 2, 
-  "leftText": "Username", 
+  "left": 52, 
+  "leftText": "", 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -65,7 +65,7 @@
   "pLeft": "", 
   "pRight": "", 
   "pTop": "", 
-  "placeholder": "Create username", 
+  "placeholder": "Username", 
   "popBody": "Body", 
   "popClose": "hover", 
   "popPosition": "", 
@@ -80,9 +80,9 @@
   "spellcheck": "true", 
   "step": "", 
   "style": "", 
-  "top": 118, 
+  "top": 116, 
   "validation": "", 
   "value": "", 
   "valueCols": 10, 
-  "width": "auto"
+  "width": 226
 }

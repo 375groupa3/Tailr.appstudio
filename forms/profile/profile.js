@@ -6,17 +6,23 @@ hmbSettings.onclick=function(){
   case "Log out":
     ChangeForm(logIn);
     break;
-  case "Edit settings":
+  case "Edit Profile":
     ChangeForm(settings);
     break;
-  case "Add account":
-    ChangeForm(logIn);
+  case "Add Account":
+    ChangeForm(signUp);
+    break;
+  case "Update Username":
+    ChangeForm(UpdateUsername);
     break;
   case "Home":
     ChangeForm(home);
     break;
-  case "Upload a Picture":
-    ChangeForm(picUpload);
+  case "Change Password":
+    ChangeForm(UpdatePassword);
+    break;
+  case "Update Profile Picture":
+    ChangeForm(UpdatePicture);
     break;
   }
 }

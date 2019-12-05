@@ -4,9 +4,11 @@ var colorFilter = "IS NOT NULL"
 var brandFilter = "IS NOT NULL"
 var categoryFilter = "IS NOT NULL"
 
-/*
-let genderArray = ["Men's", "Women's", "Unisex"]
-let weatherArray = ["Hot","Cold","Rain","Snow", "All-weather"]
+
+weatherArray.push("Current Weather")
+
+/*let genderArray = ["Men's", "Women's", "Unisex"]
+let weatherArray = ["Hot","Cold","Rain","Snow", "All-weather", "Current Weather"]
 let colorArray = ["White", "Yellow", "Red", "Pink", "Blue", "Green", "Orange", "Purple", "Black", "Other"]
 let brandArray = ["Nike","Adidas","Levi","Gucci","Polo Ralph Lauren","Calvin Klein","Aeropostale","Versace","American Eagle","Victoria's Secret", "Other"]
 let categoryArray = ["Sport","Formal","Casual","Outdoors", "Other"]
@@ -29,9 +31,8 @@ home.onshow=function(){
   for (i = 0; i <= categoryArray.length - 1; i++)
     drpCategorySelect.addItem(categoryArray[i])
     
-    /*
+    
     callQuery = "SELECT * FROM `profile` WHERE user_id =" + '"' + user_id + '"'
-    alert(callQuery)
     req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + callQuery)
     if (req3.status == 200) {
     resultCall = JSON.parse(req3.responseText)
@@ -41,8 +42,8 @@ home.onshow=function(){
     homeProfilePicture.src = picArray[0]
     }
   else{
-    imgProfilePic.src = ''
-    } */
+    imgProfilePic.src = ' ' 
+    } 
 }
 
 
@@ -58,7 +59,9 @@ drpClothingGenderSelect.onclick=function(s){
 }
 
 drpWeatherSelect.onclick=function(s){
-  if (typeof(s) == "object"){
+  if (drpWeatherSelect.selection == "Current Weather"){
+    ChangeForm(Weather)
+  } else if (typeof(s) == "object"){
     return
   } else {
     drpWeatherSelect.value = s

@@ -2,7 +2,7 @@
   "!type": "Button_bs4", 
   "ChangeForm": "", 
   "appearance": " btn-secondary", 
-  "backgroundColor": "blue", 
+  "backgroundColor": "#007BFF", 
   "badge": "", 
   "badgeAppearance": " badge-info", 
   "blockLevel": "", 
@@ -62,5 +62,5 @@
   "toggleControl": "", 
   "top": 262, 
   "value": "Sign In", 
-  "width": 220
+  "width": 248
 }

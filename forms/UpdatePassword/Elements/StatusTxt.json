@@ -1,6 +1,6 @@
 {
   "!type": "Label_bs4", 
-  "appearance": "primary", 
+  "appearance": "danger", 
   "backgroundColor": "", 
   "borderRadius": "0", 
   "bottom": "auto", 
@@ -12,14 +12,14 @@
   "display": "", 
   "expanded_pmp": null, 
   "fontFamily": "", 
-  "fontSize": "", 
+  "fontSize": "12", 
   "fontStyle": "", 
   "fontWeight": "", 
   "height": 53, 
   "hidden": "", 
   "id": "StatusTxt", 
   "labelStyle": "text", 
-  "left": 13, 
+  "left": 16, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 121, 
+  "top": 164, 
   "value": "", 
   "width": 303
 }

@@ -2,7 +2,7 @@
   "!type": "Button_bs4", 
   "ChangeForm": "", 
   "appearance": " btn-secondary", 
-  "backgroundColor": "", 
+  "backgroundColor": "#007BFF", 
   "badge": "", 
   "badgeAppearance": " badge-info", 
   "blockLevel": "", 
@@ -29,7 +29,7 @@
   "icon": "", 
   "iconTitle": "", 
   "id": "BackBtn", 
-  "left": 152, 
+  "left": 16, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -60,7 +60,7 @@
   "size": " btn-md", 
   "style": "", 
   "toggleControl": "", 
-  "top": 257, 
+  "top": 166, 
   "value": "Back", 
-  "width": "auto"
+  "width": 295
 }

@@ -1,6 +1,6 @@
 {
   "!type": "Label_bs4", 
-  "appearance": "primary", 
+  "appearance": "white", 
   "backgroundColor": "", 
   "borderRadius": "0", 
   "bottom": "auto", 
@@ -15,11 +15,11 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": 53, 
+  "height": 31, 
   "hidden": "", 
-  "id": "CurrentUsername", 
+  "id": "EditProfile", 
   "labelStyle": "text", 
-  "left": 13, 
+  "left": 109, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 121, 
-  "value": "", 
-  "width": 303
+  "top": 14, 
+  "value": "Edit Profile", 
+  "width": 113
 }

@@ -16,34 +16,7 @@
         "forms", 
         "UpdateUsername", 
         "Elements", 
-        "lblTailrTitle.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "UpdateUsername", 
-        "Elements", 
-        "UpdateUsernameTxt.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "UpdateUsername", 
-        "Elements", 
         "NewUsername.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "UpdateUsername", 
-        "Elements", 
-        "CurrentUsername.json"
       ]
     }, 
     {
@@ -62,6 +35,15 @@
         "UpdateUsername", 
         "Elements", 
         "BackBtn.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "UpdateUsername", 
+        "Elements", 
+        "Txt.json"
       ]
     }
   ], 
