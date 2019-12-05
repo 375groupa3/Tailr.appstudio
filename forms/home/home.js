@@ -238,3 +238,7 @@ hmbHome.onclick=function(){
     ChangeForm(picUpload)
   }
 }
+
+imgHome1.onclick=function(){
+  NSB.MsgBox(picIDArray)
+}
