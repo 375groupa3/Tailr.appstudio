@@ -243,5 +243,4 @@ hmbHome.onclick=function(){
 }
 
 imgHome1.onclick=function(){
-  NSB.MsgBox(picIDArray)
 }
