@@ -29,3 +29,7 @@ UpdateBtn2.onclick=function(){
         }
 }
 
+
+UpdatePassword.onshow=function(){
+  StatusTxt.value = ""
+}
