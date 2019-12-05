@@ -146,7 +146,7 @@
   "id": "settings", 
   "language": "JavaScript", 
   "left": "0", 
-  "locked": true, 
+  "locked": false, 
   "modal": "false", 
   "onhide": "", 
   "onkeypress": "", 

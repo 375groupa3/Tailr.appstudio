@@ -12,6 +12,9 @@ let userData = ''
 
 reader = new FileReader();
 
+ChooseFile.onchange=function(){
+    reader.readAsDataURL(ChooseFile.files[0]);  
+}
 reader.onload = function(e) {
      //read of the file is complete.
      //Now, let's load it into an image.
@@ -84,8 +87,4 @@ BirthYearDrop.onclick=function(s){
   } else {
     BirthYearDrop.value = s   // make dropdown show choice user made
   }
-}
-
-ChooseFile.onchange=function(){
-    reader.readAsDataURL(ChooseFile.files[0]);  
 }

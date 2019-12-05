@@ -29,7 +29,7 @@
   "icon": "", 
   "iconTitle": "", 
   "id": "Done", 
-  "left": 249, 
+  "left": 238, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -60,7 +60,7 @@
   "size": " btn-md", 
   "style": "", 
   "toggleControl": "", 
-  "top": 9, 
-  "value": "Done", 
+  "top": 14, 
+  "value": "Update", 
   "width": "auto"
 }

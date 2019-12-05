@@ -16,15 +16,6 @@
         "forms", 
         "UpdatePicture", 
         "Elements", 
-        "lblTailrCopyCopy1.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "UpdatePicture", 
-        "Elements", 
         "profilePicture.json"
       ]
     }, 
@@ -70,7 +61,7 @@
         "forms", 
         "UpdatePicture", 
         "Elements", 
-        "Label3.json"
+        "StatusTxt2.json"
       ]
     }
   ], 
@@ -88,7 +79,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "UpdatePicture.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
