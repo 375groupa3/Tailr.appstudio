@@ -125,6 +125,14 @@
             "UpdatePhoneNumber", 
             "UpdatePhoneNumber.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "Weather", 
+            "Weather.json"
+          ]
         }
       ], 
       "configxml": null, 
@@ -139,7 +147,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "logIn", 
+      "firstform": "home", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
