@@ -14,7 +14,7 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": 302, 
+  "height": "160", 
   "hidden": "", 
   "id": "picUp", 
   "left": "0", 
@@ -43,11 +43,11 @@
   "popStyle": "popover", 
   "popTitle": "Title", 
   "responsive": " img-fluid", 
-  "right": "0", 
+  "right": "auto", 
   "script": "", 
   "shape": "", 
   "src": "nsb/images/192.png", 
   "style": "", 
-  "top": 0, 
-  "width": 324
+  "top": "40", 
+  "width": "160"
 }
