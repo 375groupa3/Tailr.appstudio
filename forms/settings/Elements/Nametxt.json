@@ -15,11 +15,11 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": 53, 
+  "height": "auto", 
   "hidden": "", 
-  "id": "CurrentUsername", 
+  "id": "Nametxt", 
   "labelStyle": "text", 
-  "left": 13, 
+  "left": 12, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 121, 
-  "value": "", 
-  "width": 303
+  "top": 190, 
+  "value": "Name", 
+  "width": "auto"
 }

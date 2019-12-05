@@ -1,6 +1,6 @@
 {
   "!type": "Label_bs4", 
-  "appearance": "primary", 
+  "appearance": "dark", 
   "backgroundColor": "", 
   "borderRadius": "0", 
   "bottom": "auto", 
@@ -13,13 +13,13 @@
   "expanded_pmp": null, 
   "fontFamily": "", 
   "fontSize": "", 
-  "fontStyle": "", 
-  "fontWeight": "", 
-  "height": 31, 
+  "fontStyle": "italic", 
+  "fontWeight": "400", 
+  "height": "auto", 
   "hidden": "", 
-  "id": "Label2", 
+  "id": "SignInlbl", 
   "labelStyle": "text", 
-  "left": 25, 
+  "left": 45, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 85, 
-  "value": "Settings", 
-  "width": 113
+  "top": 104, 
+  "value": "Sign In", 
+  "width": "auto"
 }

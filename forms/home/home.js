@@ -31,9 +31,8 @@ home.onshow=function(){
   for (i = 0; i <= categoryArray.length - 1; i++)
     drpCategorySelect.addItem(categoryArray[i])
     
-    /*
+    
     callQuery = "SELECT * FROM `profile` WHERE user_id =" + '"' + user_id + '"'
-    alert(callQuery)
     req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + callQuery)
     if (req3.status == 200) {
     resultCall = JSON.parse(req3.responseText)
@@ -43,8 +42,8 @@ home.onshow=function(){
     homeProfilePicture.src = picArray[0]
     }
   else{
-    imgProfilePic.src = ''
-    } */
+    imgProfilePic.src = ' ' 
+    } 
 }
 
 

@@ -12,14 +12,14 @@
   "display": "", 
   "expanded_pmp": null, 
   "fontFamily": "", 
-  "fontSize": "", 
+  "fontSize": "12", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": "auto", 
+  "height": 26, 
   "hidden": "", 
   "id": "Msg", 
   "labelStyle": "text", 
-  "left": 20, 
+  "left": 58, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 276, 
+  "top": 283, 
   "value": "", 
-  "width": "auto"
+  "width": 217
 }

@@ -2,7 +2,7 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "#007BFF", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
@@ -10,6 +10,15 @@
   "cached_js": null, 
   "cached_js_script_hash": null, 
   "children": [
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "signUp", 
+        "Elements", 
+        "WhiteBackgroundCopy.json"
+      ]
+    }, 
     {
       "!type": "External", 
       "file": [
@@ -70,15 +79,6 @@
         "forms", 
         "signUp", 
         "Elements", 
-        "btnSignIn1.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "signUp", 
-        "Elements", 
         "lblCurrentMem.json"
       ]
     }, 
@@ -89,6 +89,15 @@
         "signUp", 
         "Elements", 
         "Msg.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "signUp", 
+        "Elements", 
+        "Msg2.json"
       ]
     }
   ], 

@@ -19,7 +19,7 @@
   "hidden": "", 
   "id": "lblTailrCopy", 
   "labelStyle": "text", 
-  "left": 108, 
+  "left": 93, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 7, 
+  "top": 21, 
   "value": "Tailr", 
   "width": "auto"
 }
