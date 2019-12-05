@@ -17,9 +17,9 @@
   "fontWeight": "", 
   "height": "auto", 
   "hidden": "", 
-  "id": "UpdateUsernameTxt", 
+  "id": "Nametxt", 
   "labelStyle": "text", 
-  "left": 15, 
+  "left": 12, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 83, 
-  "value": "Update Username", 
+  "top": 190, 
+  "value": "Name", 
   "width": "auto"
 }

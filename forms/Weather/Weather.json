@@ -2,7 +2,7 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "#007BFF", 
+  "background": "", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
@@ -14,72 +14,54 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "logIn", 
+        "Weather", 
         "Elements", 
-        "WhiteBackground.json"
+        "lblTailrCopyCopy2.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "logIn", 
+        "Weather", 
         "Elements", 
-        "inptUsername.json"
+        "lblweather.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "logIn", 
+        "Weather", 
         "Elements", 
-        "inptPassword.json"
+        "inptCity.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "logIn", 
+        "Weather", 
         "Elements", 
-        "lblTailr.json"
+        "btnWeather.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "logIn", 
+        "Weather", 
         "Elements", 
-        "btnSignin.json"
+        "lblCurrentWeather.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "logIn", 
+        "Weather", 
         "Elements", 
-        "CreateAccount.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "logIn", 
-        "Elements", 
-        "ErrorMsg.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "logIn", 
-        "Elements", 
-        "SignInlbl.json"
+        "btnHome.json"
       ]
     }
   ], 
@@ -89,7 +71,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "logIn", 
+  "id": "Weather", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -97,7 +79,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "logIn.onshow()", 
+  "onshow": "", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
