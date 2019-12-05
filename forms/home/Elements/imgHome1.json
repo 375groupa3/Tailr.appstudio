@@ -45,7 +45,7 @@
   "responsive": " img-fluid", 
   "right": "160", 
   "script": "", 
-  "shape": "", 
+  "shape": " rounded", 
   "src": "nsb/images/192.png", 
   "style": "", 
   "top": "140", 
