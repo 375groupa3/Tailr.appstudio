@@ -4,9 +4,11 @@ var colorFilter = "IS NOT NULL"
 var brandFilter = "IS NOT NULL"
 var categoryFilter = "IS NOT NULL"
 
-/*
-let genderArray = ["Men's", "Women's", "Unisex"]
-let weatherArray = ["Hot","Cold","Rain","Snow", "All-weather"]
+
+weatherArray.push("Current Weather")
+
+/*let genderArray = ["Men's", "Women's", "Unisex"]
+let weatherArray = ["Hot","Cold","Rain","Snow", "All-weather", "Current Weather"]
 let colorArray = ["White", "Yellow", "Red", "Pink", "Blue", "Green", "Orange", "Purple", "Black", "Other"]
 let brandArray = ["Nike","Adidas","Levi","Gucci","Polo Ralph Lauren","Calvin Klein","Aeropostale","Versace","American Eagle","Victoria's Secret", "Other"]
 let categoryArray = ["Sport","Formal","Casual","Outdoors", "Other"]
@@ -58,7 +60,9 @@ drpClothingGenderSelect.onclick=function(s){
 }
 
 drpWeatherSelect.onclick=function(s){
-  if (typeof(s) == "object"){
+  if (drpWeatherSelect.selection == "Current Weather"){
+    ChangeForm(Weather)
+  } else if (typeof(s) == "object"){
     return
   } else {
     drpWeatherSelect.value = s

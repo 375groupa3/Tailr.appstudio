@@ -1,6 +1,6 @@
 
 btnHome.onclick=function(){
-  CHangeForm(home)
+  ChangeForm(home)
 }
 
 let arrayTemp= []
