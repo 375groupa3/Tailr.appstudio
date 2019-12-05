@@ -32,8 +32,8 @@
   "id": "NewUsername", 
   "inputType": "text", 
   "inputmode": "", 
-  "left": 6, 
-  "leftText": "New Username", 
+  "left": 15, 
+  "leftText": "", 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -65,7 +65,7 @@
   "pLeft": "", 
   "pRight": "", 
   "pTop": "", 
-  "placeholder": "", 
+  "placeholder": "New Username", 
   "popBody": "Body", 
   "popClose": "hover", 
   "popPosition": "", 
@@ -80,9 +80,9 @@
   "spellcheck": "true", 
   "step": "", 
   "style": "", 
-  "top": 187, 
+  "top": 49, 
   "validation": "", 
   "value": "", 
   "valueCols": 10, 
-  "width": "auto"
+  "width": 293
 }

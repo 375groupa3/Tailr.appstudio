@@ -17,7 +17,7 @@
   "fontWeight": "", 
   "height": "auto", 
   "hidden": "", 
-  "id": "UpdateUsernameTxt", 
+  "id": "Emailtxt", 
   "labelStyle": "text", 
   "left": 15, 
   "mAll": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 83, 
-  "value": "Update Username", 
+  "top": 382, 
+  "value": "Email", 
   "width": "auto"
 }

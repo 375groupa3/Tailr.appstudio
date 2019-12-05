@@ -15,11 +15,11 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": 31, 
+  "height": "auto", 
   "hidden": "", 
-  "id": "Label2", 
+  "id": "Phonetxt", 
   "labelStyle": "text", 
-  "left": 25, 
+  "left": 11, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 85, 
-  "value": "Settings", 
-  "width": 113
+  "top": 333, 
+  "value": "Phone", 
+  "width": "auto"
 }

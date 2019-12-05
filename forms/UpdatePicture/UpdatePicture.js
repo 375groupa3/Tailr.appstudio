@@ -1,6 +1,6 @@
 
 BackBtn1.onclick=function(){
-  ChangeForm(settings)
+  ChangeForm(profile)
 }
 
 chooseFile.onchange=function(){
