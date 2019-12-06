@@ -135,6 +135,15 @@
         "Elements", 
         "Emailtxt.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "settings", 
+        "Elements", 
+        "picture.json"
+      ]
     }
   ], 
   "class": "", 

@@ -133,6 +133,14 @@
             "Weather", 
             "Weather.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "favorites", 
+            "favorites.json"
+          ]
         }
       ], 
       "configxml": null, 
@@ -147,7 +155,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "home", 
+      "firstform": "logIn", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
