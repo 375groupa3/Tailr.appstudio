@@ -8,13 +8,14 @@ let email = ""
 let birthDate = ""
 let picBase64 = ""
 let pic1 = ""
-let userData = ''
+let userData = ' '
 
 reader = new FileReader();
 
 ChooseFile.onchange=function(){
     reader.readAsDataURL(ChooseFile.files[0]);  
 }
+
 reader.onload = function(e) {
      //read of the file is complete.
      //Now, let's load it into an image.
@@ -56,7 +57,7 @@ CreateProfileBtn.onclick=function(){
             
         } else
             
-            NSB.MsgBox("There was a problem creating your profile.")
+            ChangeForm(profile)
             
     } else {
         // transit error
@@ -88,3 +89,4 @@ BirthYearDrop.onclick=function(s){
     BirthYearDrop.value = s   // make dropdown show choice user made
   }
 }
+
