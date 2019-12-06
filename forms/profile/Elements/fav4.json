@@ -1,7 +1,7 @@
 {
   "!type": "Image_bs4", 
   "backgroundColor": "", 
-  "bottom": "auto", 
+  "bottom": "0", 
   "cached_js": "", 
   "cached_js_script_hash": "d41d8cd98f00b204e9800998ecf8427e", 
   "center": "", 
@@ -14,10 +14,10 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": "100", 
+  "height": "110", 
   "hidden": "", 
-  "id": "imgProfilePic", 
-  "left": "110", 
+  "id": "fav4", 
+  "left": "160", 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -43,11 +43,11 @@
   "popStyle": "popover", 
   "popTitle": "Title", 
   "responsive": " img-fluid", 
-  "right": "110", 
+  "right": "50", 
   "script": "", 
-  "shape": " rounded", 
+  "shape": "", 
   "src": "nsb/images/192.png", 
   "style": "", 
-  "top": 76, 
-  "width": "100"
+  "top": "350", 
+  "width": "110"
 }
