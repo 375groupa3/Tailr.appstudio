@@ -126,6 +126,42 @@
         "Elements", 
         "ChooseFile.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "create_profile", 
+        "Elements", 
+        "PhoneTxt3.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "create_profile", 
+        "Elements", 
+        "EmailTxt3.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "create_profile", 
+        "Elements", 
+        "GenderTxt3.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "create_profile", 
+        "Elements", 
+        "NameTxt3.json"
+      ]
     }
   ], 
   "class": "", 
@@ -142,7 +178,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "profile.onshow()", 
+  "onshow": "create_profile.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
