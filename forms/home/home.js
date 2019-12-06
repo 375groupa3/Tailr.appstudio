@@ -3,6 +3,7 @@ var weatherFilter = "IS NOT NULL"
 var colorFilter = "IS NOT NULL"
 var brandFilter = "IS NOT NULL"
 var categoryFilter = "IS NOT NULL"
+var picIDArray = ""
 
 
 weatherArray.push("Current Weather")
@@ -31,7 +32,9 @@ home.onshow=function(){
   for (i = 0; i <= categoryArray.length - 1; i++)
     drpCategorySelect.addItem(categoryArray[i])
     
+    picIDArray = ""
     
+    /*
     callQuery = "SELECT * FROM `profile` WHERE user_id =" + '"' + user_id + '"'
     req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + callQuery)
     if (req3.status == 200) {
@@ -44,6 +47,7 @@ home.onshow=function(){
   else{
     imgProfilePic.src = ' ' 
     } 
+    */
 }
 
 
@@ -114,7 +118,6 @@ btnFilterSubmit.onclick=function(){
   let picMin = ""
   let picMax = ""
   let picArray = ""
-  //let randomPic
   
   var picIDquery = "SELECT picture_id FROM image_attributes where gender " + genderFilter + " AND weather " + weatherFilter + " AND color " + colorFilter + " AND brand " + brandFilter + " AND category " + categoryFilter + " ORDER BY RAND() LIMIT 4;"
   alert(picIDquery)
@@ -243,5 +246,7 @@ hmbHome.onclick=function(){
 }
 
 imgHome1.onclick=function(){
-  NSB.MsgBox(picIDArray)
+//alert(picIDArray)
+var favQuery = "INSERT INTO favorites (picture_id, user_id) VALUES ( " + '"' + picIDArray[0] + '" , "' + user_id + '"' + ") "
+alert(favQuery)
 }

@@ -34,8 +34,6 @@ reader = new FileReader();
 
 inptGetPic.onchange=function(){
   reader.readAsDataURL(inptGetPic.files[0]);
-  var picBase64 = ""
-  var pic1 = "";
 };
 
 reader.onload = function(e) {
