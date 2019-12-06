@@ -29,7 +29,7 @@
   "icon": "", 
   "iconTitle": "", 
   "id": "CreateProfileBtn", 
-  "left": 188, 
+  "left": 38, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -60,7 +60,7 @@
   "size": " btn-md", 
   "style": "", 
   "toggleControl": "", 
-  "top": 414, 
+  "top": 411, 
   "value": "Create Profile", 
-  "width": "auto"
+  "width": 250
 }

@@ -17,7 +17,7 @@
   "height": "160", 
   "hidden": "", 
   "id": "picUp", 
-  "left": "0", 
+  "left": 40, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -45,9 +45,9 @@
   "responsive": " img-fluid", 
   "right": "auto", 
   "script": "", 
-  "shape": "", 
+  "shape": " rounded", 
   "src": "nsb/images/192.png", 
   "style": "", 
-  "top": "40", 
+  "top": 8, 
   "width": "160"
 }

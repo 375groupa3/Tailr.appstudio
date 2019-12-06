@@ -239,12 +239,6 @@ homeProfilePicture.onclick=function(){
   ChangeForm(profile)
 }
 
-hmbHome.onclick=function(){
-  if (hmbHome.selection == "Upload Photo") {
-    ChangeForm(picUpload)
-  }
-}
-
 imgHome1.onclick=function(){
 var favQuery = "INSERT INTO favorites (picture_id, user_id) VALUES ( " + '"' + picIDArray[0] + '" , "' + user_id + '"' + ") "
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + favQuery)
@@ -287,4 +281,7 @@ var favQuery = "INSERT INTO favorites (picture_id, user_id) VALUES ( " + '"' + p
       //Handle that. 
       alert("Error: " + req.status)
     }
+}
+UploadPhoto.onclick=function(){
+  ChangeForm(picUpload)
 }

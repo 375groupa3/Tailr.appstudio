@@ -32,7 +32,7 @@
   "id": "inptGetPic", 
   "inputType": "file", 
   "inputmode": "", 
-  "left": "0", 
+  "left": 55, 
   "leftText": "", 
   "mAll": "", 
   "mBottom": "", 
@@ -80,9 +80,9 @@
   "spellcheck": "true", 
   "step": "", 
   "style": "", 
-  "top": "200", 
+  "top": 185, 
   "validation": "", 
   "value": "", 
   "valueCols": 10, 
-  "width": "auto"
+  "width": 229
 }
