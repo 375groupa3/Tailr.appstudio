@@ -62,10 +62,10 @@ savePic.onclick=function(){
         var attributesQuery = "INSERT INTO image_attributes (picture_id, gender, weather, color, brand, category) VALUES (" + '"' + lastID + '",' + '"' + genderSelect + '",' + '"' + weatherSelect  + '",' + '"' + colorSelect + '",' + '"' + brandSelect + '",' + '"' + categorySelect + '")'
         req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + attributesQuery)
         if (req3.status == 200) {
-          StatusLbl.value = ("successfully inserted picture attributes")
+          StatusLbl.value = ("Successfully inserted picture with attributes.")
           StatusLbl.fadeOut(5000)
         } else {
-          StatusLbl.value = ("failed to insert attributes + req3.status")
+          StatusLbl.value = ("Failed to insert attributes + req3.status")
           StatusLbl.fadeOut(5000)
         }
       } else {
