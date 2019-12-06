@@ -29,7 +29,7 @@
   "icon": "", 
   "iconTitle": "", 
   "id": "UploadPhoto", 
-  "left": 4, 
+  "left": 14, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -60,7 +60,7 @@
   "size": " btn-md", 
   "style": "", 
   "toggleControl": "", 
-  "top": 9, 
+  "top": 18, 
   "value": "Upload Photo", 
   "width": "auto"
 }
