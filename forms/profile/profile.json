@@ -52,7 +52,43 @@
         "forms", 
         "profile", 
         "Elements", 
-        "btnUpload.json"
+        "lblNameCopy.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profile", 
+        "Elements", 
+        "fav3.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profile", 
+        "Elements", 
+        "fav1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profile", 
+        "Elements", 
+        "fav2.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profile", 
+        "Elements", 
+        "fav4.json"
       ]
     }
   ], 

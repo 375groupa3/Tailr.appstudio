@@ -3,13 +3,13 @@ BackBtn1.onclick=function(){
   ChangeForm(profile)
 }
 
+reader2 = new FileReader();
+
 chooseFile.onchange=function(){
-    reader.readAsDataURL(chooseFile.files[0]);  
+    reader2.readAsDataURL(chooseFile.files[0]);  
 }
 
-reader = new FileReader();
-
-reader.onload = function(e) {
+reader2.onload = function(e) {
      //read of the file is complete.
      //Now, let's load it into an image.
      //The _onload function for the image will be called on completion.
