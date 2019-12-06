@@ -10,13 +10,13 @@ let picBase64 = ""
 let pic1 = ""
 let userData = ' '
 
-reader = new FileReader();
+reader1 = new FileReader();
 
 ChooseFile.onchange=function(){
-    reader.readAsDataURL(ChooseFile.files[0]);  
+    reader1.readAsDataURL(ChooseFile.files[0]);  
 }
 
-reader.onload = function(e) {
+reader1.onload = function(e) {
      //read of the file is complete.
      //Now, let's load it into an image.
      //The _onload function for the image will be called on completion.
