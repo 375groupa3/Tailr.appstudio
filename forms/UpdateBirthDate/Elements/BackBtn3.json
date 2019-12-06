@@ -29,7 +29,7 @@
   "icon": "", 
   "iconTitle": "", 
   "id": "BackBtn3", 
-  "left": 152, 
+  "left": 144, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -60,7 +60,7 @@
   "size": " btn-md", 
   "style": "", 
   "toggleControl": "", 
-  "top": 257, 
+  "top": 303, 
   "value": "Back", 
   "width": "auto"
 }
