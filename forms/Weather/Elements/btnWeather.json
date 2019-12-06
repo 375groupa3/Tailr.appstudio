@@ -29,7 +29,7 @@
   "icon": "", 
   "iconTitle": "", 
   "id": "btnWeather", 
-  "left": 210, 
+  "left": 16, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -60,7 +60,7 @@
   "size": " btn-md", 
   "style": "", 
   "toggleControl": "", 
-  "top": 195, 
+  "top": 161, 
   "value": "Search", 
-  "width": "auto"
+  "width": 275
 }
