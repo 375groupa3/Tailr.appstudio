@@ -15,11 +15,11 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": 35, 
+  "height": 36, 
   "hidden": "", 
-  "id": "lblCurrentWeather", 
+  "id": "Temp", 
   "labelStyle": "text", 
-  "left": 9, 
+  "left": 8, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 277, 
+  "top": 323, 
   "value": "", 
-  "width": 315
+  "width": 303
 }

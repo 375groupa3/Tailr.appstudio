@@ -15,9 +15,9 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": 35, 
+  "height": 34, 
   "hidden": "", 
-  "id": "lblCurrentWeather", 
+  "id": "Rain", 
   "labelStyle": "text", 
   "left": 9, 
   "mAll": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 277, 
+  "top": 381, 
   "value": "", 
-  "width": 315
+  "width": 297
 }

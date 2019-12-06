@@ -14,10 +14,10 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": 144, 
+  "height": "100", 
   "hidden": "", 
   "id": "imgProfilePic", 
-  "left": 81, 
+  "left": "110", 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -43,11 +43,11 @@
   "popStyle": "popover", 
   "popTitle": "Title", 
   "responsive": " img-fluid", 
-  "right": "auto", 
+  "right": "110", 
   "script": "", 
   "shape": " rounded", 
   "src": "nsb/images/192.png", 
   "style": "", 
   "top": 76, 
-  "width": 150
+  "width": "100"
 }
