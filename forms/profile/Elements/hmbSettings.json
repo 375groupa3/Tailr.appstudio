@@ -30,7 +30,7 @@
   "icon": "menu", 
   "iconTitle": "", 
   "id": "hmbSettings", 
-  "items": "Home\nEdit Profile\nUpdate Username\nUpdate Profile Picture\nChange Password\nAdd Account\nLog out", 
+  "items": "Home\nUpload a New Picture\nEdit Profile\nUpdate Username\nUpdate Profile Picture\nChange Password\nAdd Account\nLog out", 
   "left": 261, 
   "mAll": "", 
   "mBottom": "", 

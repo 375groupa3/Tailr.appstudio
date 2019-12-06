@@ -15,11 +15,11 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": 37, 
+  "height": "30", 
   "hidden": "", 
   "id": "lblName", 
   "labelStyle": "text", 
-  "left": 26, 
+  "left": "60", 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -39,10 +39,10 @@
   "pLeft": "", 
   "pRight": "", 
   "pTop": "", 
-  "right": "auto", 
+  "right": "60", 
   "script": "", 
   "style": "", 
-  "top": 231, 
-  "value": "", 
-  "width": 252
+  "top": "180", 
+  "value": "test", 
+  "width": "200"
 }
