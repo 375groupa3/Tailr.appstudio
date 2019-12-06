@@ -1,5 +1,3 @@
-
-
 hmbSettings.onclick=function(){
   var click = hmbSettings.selection
   switch (click) {
