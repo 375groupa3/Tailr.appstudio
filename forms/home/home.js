@@ -34,7 +34,7 @@ home.onshow=function(){
     
     picIDArray = ""
     
-    /*
+    
     callQuery = "SELECT * FROM `profile` WHERE user_id =" + '"' + user_id + '"'
     req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + callQuery)
     if (req3.status == 200) {
@@ -47,7 +47,7 @@ home.onshow=function(){
   else{
     imgProfilePic.src = ' ' 
     } 
-    */
+    
 }
 
 
@@ -120,7 +120,6 @@ btnFilterSubmit.onclick=function(){
   let picArray = ""
   
   var picIDquery = "SELECT picture_id FROM image_attributes where gender " + genderFilter + " AND weather " + weatherFilter + " AND color " + colorFilter + " AND brand " + brandFilter + " AND category " + categoryFilter + " ORDER BY RAND() LIMIT 4;"
-  alert(picIDquery)
   req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + picIDquery)
   if (req1.status == 200) {
   picIDArray = JSON.parse(req1.responseText)
@@ -128,7 +127,6 @@ btnFilterSubmit.onclick=function(){
   alert(picIDArray)
   //randomPicID = picIDArray[Math.floor(Math.random()*picIDArray.length)];
   randomPicID1 = picIDArray[0]
-  //alert(randomPicID)
   var callQuery1 = "SELECT picture FROM picture WHERE picture_id =" + randomPicID1 + ";"
   req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + callQuery1)
   if (req3.status == 200) {
