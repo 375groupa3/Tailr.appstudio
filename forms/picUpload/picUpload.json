@@ -90,6 +90,15 @@
         "Elements", 
         "GoHome.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "picUpload", 
+        "Elements", 
+        "StatusLbl.json"
+      ]
     }
   ], 
   "class": "", 
