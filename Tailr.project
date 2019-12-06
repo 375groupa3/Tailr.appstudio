@@ -133,6 +133,14 @@
             "Weather", 
             "Weather.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "favorites", 
+            "favorites.json"
+          ]
         }
       ], 
       "configxml": null, 
