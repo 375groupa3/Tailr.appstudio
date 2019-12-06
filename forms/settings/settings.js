@@ -1,6 +1,4 @@
 
-
-
 settings.onshow=function(){
     query = "SELECT * FROM `profile` WHERE user_id =" + '"' + user_id + '"'  
     console.log(query)
