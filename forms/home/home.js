@@ -239,14 +239,12 @@ homeProfilePicture.onclick=function(){
   ChangeForm(profile)
 }
 
-hmbHome.onclick=function(){
-  if (hmbHome.selection == "Upload Photo") {
-    ChangeForm(picUpload)
-  }
-}
-
 imgHome1.onclick=function(){
 //alert(picIDArray)
 var favQuery = "INSERT INTO favorites (picture_id, user_id) VALUES ( " + '"' + picIDArray[0] + '" , "' + user_id + '"' + ") "
 alert(favQuery)
+}
+
+UploadPhoto.onclick=function(){
+  ChangeForm(picUpload)
 }

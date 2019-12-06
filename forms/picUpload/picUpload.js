@@ -122,9 +122,3 @@ drpCategory.onclick=function(s){
     categorySelect = s
   }
 }
-
-hmbUpload.onclick=function(){
-  if (hmbUpload.selection == "Home") {
-    ChangeForm(home)
-  }
-}

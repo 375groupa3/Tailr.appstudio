@@ -29,7 +29,7 @@
   "icon": "", 
   "iconTitle": "", 
   "id": "savePic", 
-  "left": "240", 
+  "left": 181, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -60,7 +60,7 @@
   "size": " btn-md", 
   "style": "", 
   "toggleControl": "", 
-  "top": "230", 
+  "top": 413, 
   "value": "Save", 
-  "width": "80"
+  "width": 126
 }
