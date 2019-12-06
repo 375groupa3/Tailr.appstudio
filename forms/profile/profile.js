@@ -54,7 +54,7 @@ profile.onshow=function(){
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + favQuery)
   if (req.status == 200) {
     favArray = JSON.parse(req.responseText)
-    alert(favArray)
+    //alert(favArray)
     
     if (favArray.length >= 4) {
     var callBlob = favArray[0][0] + '.'
