@@ -25,7 +25,7 @@ let myurl = "https://cors-anywhere.herokuapp.com/https://api.weatherbit.io/v2.0/
                 arrayTemp.push(myData.data[0].app_temp)
                 arrayPrecip.push(myData.data[0].precip)
                 arrayCloud.push(myData.data[0].clouds)
-                lblCurrentWeather.value = `your current weather is: a high temperature of ${arrayTemp[0]} degrees Farenheit, ${arrayCloud[0]}% cloudy and a ${arrayPrecip[0]}% chance of precipitation.`
+                lblCurrentWeather.value = `Your current weather is:temperature: ${arrayTemp[0]} Farenheit; clouds: ${arrayCloud[0]}%; precipitation: ${arrayPrecip[0]}%.`
             } // close success funct
          });   // close ajax call
 }
