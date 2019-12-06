@@ -240,11 +240,48 @@ homeProfilePicture.onclick=function(){
 }
 
 imgHome1.onclick=function(){
-//alert(picIDArray)
 var favQuery = "INSERT INTO favorites (picture_id, user_id) VALUES ( " + '"' + picIDArray[0] + '" , "' + user_id + '"' + ") "
-alert(favQuery)
+  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + favQuery)
+  if (req.status == 200) {
+  NSB.MsgBox("Added to Favorites")
+    } else {
+      //Handle that. 
+      alert("Error: " + req.status)
+    }
 }
 
+imgHome2.onclick=function(){
+var favQuery = "INSERT INTO favorites (picture_id, user_id) VALUES ( " + '"' + picIDArray[1] + '" , "' + user_id + '"' + ") "
+  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + favQuery)
+  if (req.status == 200) {
+  NSB.MsgBox("Added to Favorites")
+    } else {
+      //Handle that. 
+      alert("Error: " + req.status)
+    }
+}
+
+imgHome3.onclick=function(){
+var favQuery = "INSERT INTO favorites (picture_id, user_id) VALUES ( " + '"' + picIDArray[2] + '" , "' + user_id + '"' + ") "
+  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + favQuery)
+  if (req.status == 200) {
+  NSB.MsgBox("Added to Favorites")
+    } else {
+      //Handle that. 
+      alert("Error: " + req.status)
+    }
+}
+
+imgHome4.onclick=function(){
+var favQuery = "INSERT INTO favorites (picture_id, user_id) VALUES ( " + '"' + picIDArray[3] + '" , "' + user_id + '"' + ") "
+  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + favQuery)
+  if (req.status == 200) {
+  NSB.MsgBox("Added to Favorites")
+    } else {
+      //Handle that. 
+      alert("Error: " + req.status)
+    }
+}
 UploadPhoto.onclick=function(){
   ChangeForm(picUpload)
 }
