@@ -22,7 +22,7 @@ home.onshow=function(){
   drpWeatherSelect.clear()
   for (i = 0; i <= weatherArray.length - 1; i++)
     drpWeatherSelect.addItem(weatherArray[i])
-  drpColor.clear()
+  drpColorSelect.clear()
   for (i = 0; i <= colorArray.length - 1; i++)
     drpColorSelect.addItem(colorArray[i])
   drpBrandSelect.clear()
@@ -124,7 +124,7 @@ btnFilterSubmit.onclick=function(){
   if (req1.status == 200) {
   picIDArray = JSON.parse(req1.responseText)
   
-  alert(picIDArray)
+  //alert(picIDArray)
   //randomPicID = picIDArray[Math.floor(Math.random()*picIDArray.length)];
   randomPicID1 = picIDArray[0]
   var callQuery1 = "SELECT picture FROM picture WHERE picture_id =" + randomPicID1 + ";"
