@@ -25,7 +25,7 @@ UpdateBtn1.onclick=function(){
         if (req1.responseText == 500) {   // means the update succeeded
         } 
         StatusTxt2.value = "You changed your profile picture."
-        
+        StatusTxt2.fadeOut(5000)
         
         callQuery = "SELECT * FROM `profile` WHERE user_id =" + '"' + user_id + '"'
         req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=jqb64765&pass=bia375&database=375groupa3&query=" + callQuery)

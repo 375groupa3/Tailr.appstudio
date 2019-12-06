@@ -2,7 +2,7 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "White", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
@@ -62,6 +62,33 @@
         "Weather", 
         "Elements", 
         "btnHome.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "Weather", 
+        "Elements", 
+        "Temp.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "Weather", 
+        "Elements", 
+        "Cloud.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "Weather", 
+        "Elements", 
+        "Rain.json"
       ]
     }
   ], 
