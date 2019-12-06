@@ -246,7 +246,7 @@ hmbHome.onclick=function(){
 }
 
 imgHome1.onclick=function(){
-//alert(picIDArray)
 var favQuery = "INSERT INTO favorites (picture_id, user_id) VALUES ( " + '"' + picIDArray[0] + '" , "' + user_id + '"' + ") "
 alert(favQuery)
+
 }
