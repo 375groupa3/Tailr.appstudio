@@ -14,8 +14,13 @@ settings.onshow=function(){
             Email.value = allUserData[0][6]
             Phone.value = allUserData[0][5]
             Gender.value = allUserData[0][4]
-    } else {
-        // transit error
+            
+            var callBlob = resultCall[0][1] + '.'
+            callBlob = callBlob.replace(/\s/gi, '+')
+            picArray = callBlob.split(".")
+            picture.src = picArray[0]
+        } else {
+                // transit error
         NSB.MsgBox("Error: " + req1.status);
     }  
 }
